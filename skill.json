@@ -1,0 +1,1596 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "shadows of brimstone explainer",
+
+
+      "intents": [
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+
+
+        {
+          "name": "ExplainAdvancedEncountersIntent",
+          "slots": [],
+          "samples": [
+            "explain advanced encounters game variant",
+            "explain advanced encounter",
+            "explain advanced encounter game variant",
+            "explain advanced encounters"
+          ]
+        },        {
+          "name": "ExplainAmbushIntent",
+          "slots": [],
+          "samples": [
+            "explain enemy ambush attack",
+            "explain monster ambush attacks",
+            "explain monster ambush attack",
+            "explain monster ambushes",
+            "explain enemy ambush",
+            "explain monster ambush",
+            "explain enemy ambush attacks",
+            "explain enemy ambushes",
+            "explain ambush attacks",
+            "explain ambushes",
+            "explain ambush"
+          ]
+        },
+        {
+          "name": "ExplainAmmoIntent",
+          "slots": [],
+          "samples": [
+            "explain rifle ammunition",
+            "explain rifle ammo",
+            "explain gun ammunition",
+            "explain gun ammo",
+            "explain ammunition types",
+            "explain ammo types",
+            "explain ammunition",
+            "explain ammo"
+          ]
+        },
+        {
+          "name": "ExplainArmorIntent",
+          "slots": [],
+          "samples": [
+            "explain what is spirit armor",
+            "explain how to use spirit armor",
+            "explain how spirit armor works",
+            "explain what is armor",
+            "explain how to use armor",
+            "explain how armor works",
+            "explain spirit armor",
+            "explain armor"
+          ]
+        },
+
+
+        {
+          "name": "ExplainBandagesIntent",
+          "slots": [],
+          "samples": [
+            "explain how to use a bandage",
+            "explain how to use bandages",
+            "explain bandaging",
+            "explain bandage token",
+            "explain bandage tokens",
+            "explain bandage",
+            "explain bandages"
+          ]
+        },
+        {
+          "name": "ExplainBandidoIntent",
+          "slots": [],
+          "samples": [
+            "explain bandido hero classes",
+            "explain bandido classes",
+            "explain bandido hero class",
+            "explain bandido hero",
+            "explain bandido class",
+            "explain bandido"
+          ]
+        },
+        {
+          "name": "ExplainBasicCombatIntent",
+          "slots": [],
+          "samples": [
+            "explain what is basic combat",
+            "explain what basic combat is",
+            "explain basic combat mode",
+            "explain basic combat optional rule",
+            "explain basic combat variation",
+            "explain basic combat"
+          ]
+        },
+        {
+          "name": "ExplainBasicGameIntent",
+          "slots": [],
+          "samples": [
+            "explain the basic game optional rule",
+            "explain basic game optional rule",
+            "explain the basic game variant",
+            "explain basic game variant",
+            "explain basic game mode",
+            "explain the basic game",
+            "explain basic game"
+          ]
+        },
+        {
+          "name": "ExplainBelowTheDarknessIntent",
+          "slots": [],
+          "samples": [
+            "explain beneath the darkness game variant",
+            "explain below the darkness game variant",
+            "explain beneath the darkness optional rule",
+            "explain below the darkness optional rule",
+            "explain what is below the darkness",
+            "explain beneath the darkness",
+            "explain below the darkness"
+          ]
+        },
+        {
+          "name": "ExplainBlessingIntent",
+          "slots": [],
+          "samples": [
+            "explain preacher blessings",
+            "explain priest blessings",
+            "explain nun blessings",
+            "explain preacher blessing",
+            "explain priest blessing",
+            "explain nun blessing",
+            "explain blessings",
+            "explain blessing"
+          ]
+        },
+        {
+          "name": "ExplainBrutalEnemyIntent",
+          "slots": [],
+          "samples": [
+            "explain brutal rule",
+            "explain brutal monsters",
+            "explain brutal monster",
+            "explain brutality enemies",
+            "explain what brutal enemies are",
+            "explain what a brutal enemy is",
+            "explain brutal enemy",
+            "explain brutal enemies"
+          ]
+        },
+
+
+        {
+          "name": "ExplainCancelIntent",
+          "slots": [],
+          "samples": [
+            "explain what cancelling an ability means",
+            "explain what cancelling a card means",
+            "explain what cancel means",
+            "explain how to cancel an ability",
+            "explain how to cancel a card",
+            "explain how to cancel",
+            "explain cancelling an ability",
+            "explain cancelling a card",
+            "explain cancel "
+          ]
+        },
+        {
+          "name": "ExplainCastingNumbersIntent",
+          "slots": [],
+          "samples": [
+            "explain spell difficulty",
+            "explain casting difficulty",
+            "explain spell requirement",
+            "explain casting requirement",
+            "explain spell requirements",
+            "explain casting requirements",
+            "explain spell number",
+            "explain spell numbers",
+            "explain casting number",
+            "explain casting numbers"
+          ]
+        },
+        {
+          "name": "ExplainCatchingBreathIntent",
+          "slots": [],
+          "samples": [
+            "explain catching ones breathe",
+            "explain catching your breathe",
+            "explain catching my breathe",
+            "explain catching breathe",
+            "explain catching ones breath",
+            "explain catching your breath",
+            "explain catching my breath",
+            "explain catching breath"
+          ]
+        },
+        {
+          "name": "ExplainCluesIntent",
+          "slots": [],
+          "samples": [
+            "explain what a hint token is",
+            "explain what a clue token is",
+            "explain what hint tokens are",
+            "explain what clue tokens are",
+            "explain what hints are",
+            "explain what clues are",
+            "explain adventure progress",
+            "explain mission progress",
+            "explain hint tokens",
+            "explain hint token",
+            "explain hint",
+            "explain hints",
+            "explain clue tokens",
+            "explain clue token",
+            "explain clue",
+            "explain clues"
+          ]
+        },
+        {
+          "name": "ExplainCorruptionIntent",
+          "slots": [],
+          "samples": [
+            "explain corruption tokens",
+            "explain corrupt",
+            "explain corruption",
+            "explain corruption hits"
+          ]
+        },
+        {
+          "name": "ExplainCritsIntent",
+          "slots": [],
+          "samples": [
+            "explain hero crits",
+            "explain player crits",
+            "explain hero crit",
+            "explain player crit",
+            "explain ranged critical strikes",
+            "explain melee critical strikes",
+            "explain ranged critical strike",
+            "explain melee critical strike",
+            "explain ranged crits",
+            "explained mele crits",
+            "explained ranged crit",
+            "explain melee crit",
+            "explain a critical strike",
+            "explain a critical hit",
+            "explain critical strikes",
+            "explain critical hits",
+            "explain crit",
+            "explain crits"
+          ]
+        },
+
+
+        {
+          "name": "ExplainDarkStoneIntent",
+          "slots": [],
+          "samples": [
+            "explain darkstones",
+            "explain dark stones",
+            "explain darkstone",
+            "explain dark stone"
+          ]
+        },        {
+          "name": "ExplainDangerousDynamiteIntent",
+          "slots": [],
+          "samples": [
+            "explain dangerous dynamite optional rule",
+            "explain dangerous dynamite game variant",
+            "explain dangerous dynamite game mode",
+            "explain dangerious dynamites",
+            "explain dangerous bombs",
+            "explain dangerous dynamite"
+          ]
+        },
+        {
+          "name": "ExplainDangerousSpellIntent",
+          "slots": [],
+          "samples": [
+            "explain dangerous judgement",
+            "explain dangerous blessing",
+            "explain dangerous sermon",
+            "explain tentacle icon spells",
+            "explain tentacle icon spell",
+            "explain tentacle spells",
+            "explain tentacle spell",
+            "explain evil spells",
+            "explain difficult spell",
+            "explain evil spell",
+            "explain what a dangerous spell is",
+            "explain dangerous spell",
+            "explain dangerous spells"
+          ]
+        },
+        {
+          "name": "ExplainDefenseIntent",
+          "slots": [],
+          "samples": [
+            "explain what defense is",
+            "explain monster defense",
+            "explain enemy defense",
+            "explain player defense",
+            "explain hero defense",
+            "explain how defense works",
+            "explain defenses",
+            "explain defense"
+          ]
+        },
+        {
+          "name": "ExplainDepthEventIntent",
+          "slots": [],
+          "samples": [
+            "explain the depth events",
+            "explain the depth event",
+            "explain death events",
+            "explain death event",
+            "explain depth events",
+            "explain depth event"
+          ]
+        },
+        {
+          "name": "ExplainDepthTrackIntent",
+          "slots": [],
+          "samples": [
+            "explain the death tracks",
+            "explain the death track",
+            "explain the depth tracks",
+            "explain the depth track",
+            "explain death tracks",
+            "explain death track",
+            "explain depth tracks",
+            "explain depth track"
+          ]
+        },
+        {
+          "name": "ExplainDoubleHandedIntent",
+          "slots": [],
+          "samples": [
+            "explain two hand icons",
+            "explain two-handed weapon",
+            "explain two-handed",
+            "explain twohanded",
+            "explain double handed weapon",
+            "explain doublehanded weapon",
+            "explain doublehanded",
+            "explain double handed"
+          ]
+        },
+        {
+          "name": "ExplainDualWieldingIntent",
+          "slots": [],
+          "samples": [
+            "explain duel wield",
+            "explain duel wielding",
+            "explain duel weld",
+            "explain duel welding",
+            "explain how to duel wield",
+            "explain how duel wielding works",
+            "explain wielding two weapons",
+            "explain wielding a second weapon",
+            "explain wielding an offhand weapon",
+            "explain wielding an offhand weapon"
+          ]
+        },
+        {
+          "name": "ExplainDynamiteIntent",
+          "slots": [],
+          "samples": [
+            "explain dynamite",
+            "explain fire sake",
+            "explain bomb",
+            "explain bombs",
+            "explain tnt",
+            "explain explosives",
+            "explain throwing bomb",
+            "explain throwing bombs",
+            "explain throwing dynamite",
+            "explain throwing fire sake",
+            "explain throwing explosives"
+          ]
+        },
+
+
+        {
+          "name": "ExplainEliteAbilitiesIntent",
+          "slots": [],
+          "samples": [
+            "explain elite",
+            "explain elites",
+            "explain elite abilities",
+            "explain elite ability",
+            "explain how elite abilities work",
+            "explain what an elite ability is",
+            "explain elite monsters",
+            "explain elite monster",
+            "explain elite enemy",
+            "explain elite enemies"
+          ]
+        },
+        {
+          "name": "ExplainEnemyAttacksIntent",
+          "slots": [],
+          "samples": [
+            "explain enemy attacks",
+            "explain how enemies attack",
+            "explain attacking enemies",
+            "explain monster attacks",
+            "explain how monster attack",
+            "explain attacking monsters",
+            "explain enemy attack",
+            "explain monster attack",
+            "explain enemy combat",
+            "explain monster combat",
+            "explain enemy fight",
+            "explain monster fight"
+          ]
+        },
+        {
+          "name": "ExplainEnemyMovementIntent",
+          "slots": [],
+          "samples": [
+            "explain enemy movement",
+            "explain monster movement",
+            "explain how enemies move",
+            "explain how monsters move",
+            "explain enemy turn",
+            "explain monster turn",
+            "explain the enemy turn",
+            "explain the monster turn",
+            "explain the enemies turn",
+            "explain the monsters turn"
+          ]
+        },
+        {
+          "name": "ExplainEnemyRangedAttackIntent",
+          "slots": [],
+          "samples": [
+            "explain enemy ranged attacks",
+            "explain how enemies ranged attack",
+            "explain ranged attacking enemies",
+            "explain monster ranged attacks",
+            "explain ranged monster attacks",
+            "explain how monster attack at range",
+            "explain ranged attacking monsters",
+            "explain ranged enemy attack",
+            "explain ranged monster attack",
+            "explain ranged enemy combat",
+            "explain ranged monster combat",
+            "explain enemy ranged attack",
+            "explain monster ranged attack",
+            "explain enemy ranged combat",
+            "explain monster ranged combat"
+          ]
+        },
+        {
+          "name": "ExplainEscapingDarknessIntent",
+          "slots": [],
+          "samples": [
+            "explain escaping darkness",
+            "explain darkness escape",
+            "explain escaping of the darkness",
+            "explain darkness mine entrance",
+            "explain darkness getting out",
+            "explain darkness leaving",
+            "explain darkness reaching the mine entrance",
+            "explain darkness mine entrance",
+            "explain darkness"
+          ]
+        },
+        {
+          "name": "ExplainEscapingFromEnemiesIntent",
+          "slots": [],
+          "samples": [
+            "explain escaping",
+            "explain escape",
+            "explain escaping from enemies",
+            "explain escaping from monsters",
+            "explain escape movement",
+            "explain moving away from enemies",
+            "explain moving away from monsters"
+          ]
+        },
+        {
+          "name": "ExplainExperienceIntent",
+          "slots": [],
+          "samples": [
+            "explain experience",
+            "explain xp",
+            "explain gaining experience",
+            "explain gaining xp",
+            "explain acquiring experience",
+            "explain acquiring xp"
+          ]
+        },
+        {
+          "name": "ExplainExplorationIntent",
+          "slots": [],
+          "samples": [
+            "explain exploring",
+            "explain exploration",
+            "explain room exploration",
+            "explain exploring rooms",
+            "explain exploring a room"
+          ]
+        },
+
+
+        {
+          "name": "ExplainFaithIntent",
+          "slots": [],
+          "samples": [
+            "explain faith",
+            "explain faith tokens",
+            "explain faith token",
+            "explain priest faith",
+            "explain preacher faith"
+          ]
+        },
+        {
+          "name": "ExplainFaithCostIntent",
+          "slots": [],
+          "samples": [
+            "explain faith cost",
+            "explain sermon cost",
+            "explain blessing cost",
+            "explain judgement cost",
+            "explain priest spell cost",
+            "explain preacher spell cost"
+          ]
+        },
+        {
+          "name": "ExplainFightIntent",
+          "slots": [],
+          "samples": [
+            "explain fighting an enemy",
+            "explain fighting enemies",
+            "explain fights",
+            "explain battles",
+            "explain battle",
+            "explain combat",
+            "explain fight"
+          ]
+        },
+        {
+          "name": "ExplainFixedHeroMovementIntent",
+          "slots": [],
+          "samples": [
+            "explain fixed hero move",
+            "explain fixed hero move game mode",
+            "explain fixed hero move game variant",
+            "explain fixed hero move mode",
+            "explain fixed hero move variant",
+            "explain fixed character move",
+            "explain fixed character move game mode",
+            "explain fixed character move game variant",
+            "explain fixed character move mode",
+            "explain fixed character move variant"
+          ]
+        },
+        {
+          "name": "ExplainFlashTokenIntent",
+          "slots": [],
+          "samples": [
+            "explain flash",
+            "explain flash token",
+            "explain flash tokens"
+          ]
+        },
+        {
+          "name": "ExplainFleeingIntent",
+          "slots": [],
+          "samples": [
+            "explain fleeing",
+            "explain flight",
+            "explain fleeing from a mission",
+            "explain fleeing from a dungeon",
+            "explain escaping from a mission",
+            "explain escaping from a dungeon",
+            "explain aborting a dungeon",
+            "explain running away from a dungeon",
+            "explain aborting a mission",
+            "explain running away from a mission",
+            "explain fleeing from an adventure",
+            "explain escaping from an adventure",
+            "explain aborting an adventure",
+            "explain running away from an adventure"
+          ]
+        },
+        {
+          "name": "ExplainFreeAttacksIntent",
+          "slots": [],
+          "samples": [
+            "explain free attacks",
+            "explain free attack",
+            "explain how to free attack",
+            "explain how to do free attacks",
+            "explain what are free attacks"
+          ]
+        },
+
+        {
+          "name": "ExplainGameSetupIntent",
+          "slots": [],
+          "samples": [
+            "explain game setup",
+            "explain setup",
+            "explain setting up the game",
+            "explain how to set up the game",
+            "explain board setup"
+          ]
+        },
+        {
+          "name": "ExplainGameVariantsIntent",
+          "slots": [],
+          "samples": [
+            "explain game variants",
+            "explain variants",
+            "explain game variations",
+            "explain variations",
+            "explain optional rules",
+            "explain options",
+            "explain game options"
+          ]
+        },
+        {
+          "name": "ExplainGatesIntent",
+          "slots": [],
+          "samples": [
+            "explain gates",
+            "explain portals",
+            "explain gate",
+            "explain portal",
+            "explain gateway",
+            "explain gateways",
+            "explain otherworld gates",
+            "explain otherworld portals",
+            "explain otherworld gate",
+            "explain otherworld portal",
+            "explain otherworld gateway",
+            "explain otherworld gateways",
+            "explain other world gates",
+            "explain other world portals",
+            "explain other world gate",
+            "explain other world portal",
+            "explain other world gateway",
+            "explain other world gateways"
+          ]
+        },
+        {
+          "name": "ExplainGoldIntent",
+          "slots": [],
+          "samples": [
+            "explain gold",
+            "explain dollars",
+            "explain currency",
+            "explain gold nuggets"
+          ]
+        },
+        {
+          "name": "ExplainGritIntent",
+          "slots": [],
+          "samples": [
+            "explain grit",
+            "explain grit tokens",
+            "explain how grit works",
+            "explain how to use grit",
+            "explain what grit is"
+          ]
+        },
+        {
+          "name": "ExplainGrowingDreadIntent",
+          "slots": [],
+          "samples": [
+            "explain growing dread",
+            "explain growing dead",
+            "explain what growing dead is"
+          ]
+        },
+        {
+          "name": "ExplainGunslingerIntent",
+          "slots": [],
+          "samples": [
+            "explain gunslinger",
+            "explain gun slinger",
+            "explain gunslinger hero",
+            "explain gun slinger hero",
+            "explain gunslinger hero class",
+            "explain gun slinger hero class",
+            "explain gunslinger hero character",
+            "explain gun slinger hero character",
+            "explain gunslinger class",
+            "explain gun slinger class",
+            "explain gunslinger character",
+            "explain gun slinger character"
+          ]
+        },
+        {
+          "name": "ExplainGunSlingerShotsIntent",
+          "slots": [],
+          "samples": [
+            "explain gunslinger shots",
+            "explain gun slinger shots",
+            "explain gun slinger rounds",
+            "explain gunslinger rounds",
+            "explain gunslinger ammo",
+            "explain gun slinger ammo"
+          ]
+        },
+
+        {
+          "name": "ExplainHardcoreIntent",
+          "slots": [],
+          "samples": [
+            "explain hardcore",
+            "explain hardcore variant",
+            "explain hardcore mode",
+            "explain hardcore options",
+            "explain hardcore game variant"
+          ]
+        },
+        {
+          "name": "ExplainHealingIntent",
+          "slots": [],
+          "samples": [
+            "explain healing",
+            "explain heal",
+            "explain how to heal",
+            "explain healing wounds",
+            "explain healing a character",
+            "explain heal a character",
+            "explain how to heal character",
+            "explain healing a player",
+            "explain heal a player",
+            "explain how to heal player",
+            "explain healing a hero",
+            "explain heal a hero",
+            "explain how to heal hero"
+          ]
+        },
+        {
+          "name": "ExplainHerbsIntent",
+          "slots": [],
+          "samples": [
+            "explain herbs",
+            "explain herb",
+            "explain herb tokens",
+            "explain herb token",
+            "explain how to use herb",
+            "explain how to use herbs",
+            "explain how to use herb tokens",
+            "explain how to use a herb token"
+          ]
+        },
+        {
+          "name": "ExplainHeroClassesIntent",
+          "slots": [],
+          "samples": [
+            "explain hero classes",
+            "explain hero characters",
+            "explain character classes",
+            "explain hero roles",
+            "explain adventurer classes",
+            "explain adventurer characters",
+            "explain adventurer roles",
+            "explain classes",
+            "explain roles"
+          ]
+        },
+        {
+          "name": "ExplainHeroCreationIntent",
+          "slots": [],
+          "samples": [
+            "explain new hero creation",
+            "explain new hero",
+            "explain how to create a new hero",
+            "explain hero creation"
+          ]
+        },
+        {
+          "name": "ExplainHeroDeathIntent",
+          "slots": [],
+          "samples": [
+            "explain hero death",
+            "explain hero kill",
+            "explain dying hero",
+            "explain player death",
+            "explain player kill",
+            "explain dying player",
+            "explain character death",
+            "explain character kill",
+            "explain dying character",
+            "explain adventurer death",
+            "explain adventurer kill",
+            "explain dying adventurer"
+          ]
+        },
+        {
+          "name": "ExplainHitIntent",
+          "slots": [],
+          "samples": [
+            "explain hit",
+            "explain hits",
+            "explain strike",
+            "explain strikes",
+            "explain combat hit",
+            "explain combat hits"
+          ]
+        },
+        {
+          "name": "ExplainHoldBackTheDarknessIntent",
+          "slots": [],
+          "samples": [
+            "explain hold back the darkness",
+            "explain holding back the darkness",
+            "explain how to hold back the darkness",
+            "explain darkness holdback",
+            "explain helding the darkness",
+            "explain stopping the darkness"
+          ]
+        },
+
+
+        {
+          "name": "ExplainIndianScoutIntent",
+          "slots": [],
+          "samples": [
+            "explain indian scout",
+            "explain scout",
+            "explain indian",
+            "explain native american",
+            "explain native scout",
+            "explain native american scout"
+          ]
+        },
+        {
+          "name": "ExplainInitiativeIntent",
+          "slots": [],
+          "samples": [
+            "explain init",
+            "explain enemy initiative",
+            "explain player initiative",
+            "explain hero initiative",
+            "explain order of activation",
+            "explain activation order",
+            "explain initiative"
+          ]
+        },
+
+        {
+          "name": "ExplainJudgementsIntent",
+          "slots": [],
+          "samples": [
+            "explain judgement",
+            "explain judgements",
+            "explain priest judgement",
+            "explain priest judgements",
+            "explain preacher judgement",
+            "explain preacher judgements",
+            "explain nun judgement",
+            "explain nun judgements",
+            "explain what judgements are",
+            "explain what a judgement is"
+          ]
+        },
+
+
+        {
+          "name": "ExplainKillingEnemiesIntent",
+          "slots": [],
+          "samples": [
+            "explain kills",
+            "explain enemy kills",
+            "explain killing an enemy",
+            "explain killing enemies"
+          ]
+        },
+        {
+          "name": "ExplainKnockedOutIntent",
+          "slots": [],
+          "samples": [
+            "explain ko",
+            "explain knockout",
+            "explain knocked out",
+            "explain player ko",
+            "explain hero ko",
+            "explain character ko",
+            "explain adventurer ko",
+            "explain player knockout",
+            "explain hero knockout",
+            "explain character knockout",
+            "explain adventurer knockout",
+            "explain getting knocked out"
+          ]
+        },
+
+        {
+          "name": "ExplainLawmanIntent",
+          "slots": [],
+          "samples": [
+            "explain lawman",
+            "explain lawman class",
+            "explain lawman character",
+            "explain lawman character class",
+            "explain lawman hero class",
+            "explain lawman adventurer class",
+            "explain lawman role"
+          ]
+        },
+        {
+          "name": "ExplainLookingIntent",
+          "slots": [],
+          "samples": [
+            "explain looking",
+            "explain looking through",
+            "explain looking at the next map tile",
+            "explain look",
+            "explain looking through a door",
+            "explain looking through a gate",
+            "explain peeking",
+            "explain peeking through",
+            "explain peeking at the next map tile",
+            "explain peek",
+            "explain peeking through a door",
+            "explain peeking through a gate"
+          ]
+        },
+        {
+          "name": "ExplainLootIntent",
+          "slots": [],
+          "samples": [
+            "explain loot",
+            "explain gaining loot",
+            "explain acquiring loot",
+            "explain looting",
+            "explain looting enemies",
+            "explain looting monsters",
+            "explain looting bodies",
+            "explain looting after a fight"
+          ]
+        },
+
+
+        {
+          "name": "ExplainUSMarshalIntent",
+          "slots": [],
+          "samples": [
+            "explain us marshal",
+            "explain marshal",
+            "explain us marshal class",
+            "explain marshal class",
+            "explain us marshal character class",
+            "explain marshal character class",
+            "explain us marshal character",
+            "explain marshal character",
+            "explain us marshal role",
+            "explain marshal role",
+            "explain us marshal hero",
+            "explain marshal herp"
+          ]
+        },
+        {
+          "name": "ExplainMeleeCombatIntent",
+          "slots": [],
+          "samples": [
+            "explain melee",
+            "explain melee combat",
+            "explain close combat",
+            "explain melee fighting",
+            "explain melee combat fighting",
+            "explain close combat fighting",
+            "explain hand to hand",
+            "explain hand to hand combat",
+            "explain hand to hand fighting"
+          ]
+        },
+        {
+          "name": "ExplainMissionCompletionIntent",
+          "slots": [],
+          "samples": [
+            "explain how to end an adventure",
+            "explain how to end a mission",
+            "explain what to do after mission",
+            "explain completed adventure",
+            "explain adventure completed",
+            "explain adventure completion",
+            "explain completed mission",
+            "explain mission completed",
+            "explain mission completion"
+          ]
+        },
+        {
+          "name": "ExplainMovementIntent",
+          "slots": [],
+          "samples": [
+            "explain player movement",
+            "explain character movement",
+            "explain adventurer movement",
+            "explain hero movement",
+            "explain how player move",
+            "explain how character move",
+            "explain how adventurer move",
+            "explain how hero move",
+            "explain movement",
+            "explain how to move"
+          ]
+        },
+        {
+          "name": "ExplainMultipleSameClassIntent",
+          "slots": [],
+          "samples": [
+            "explain same hero game variant",
+            "explain same hero optional rule",
+            "explain multiple of the same hero class",
+            "explain multiple heroes of the same class",
+            "explain same class",
+            "explain having multiple heroes of the same class",
+            "explain several of the same hero class",
+            "explain several heroes of the same class",
+            "explain having several heroes of the same class"
+          ]
+        },
+        {
+          "name": "ExplainMutationIntent",
+          "slots": [],
+          "samples": [
+            "explain mutation",
+            "explain mutating",
+            "explain mutations",
+            "explain gaining mutations",
+            "explain gaining a mutation",
+            "explain curing a mutation",
+            "explain curing mutations"
+          ]
+        },
+
+        {
+          "name": "ExplainNaturalRollIntent",
+          "slots": [],
+          "samples": [
+            "explain natural roll",
+            "explain natural rolls",
+            "explain what a natural roll is",
+            "explain what natural rolls are",
+            "explain basic roll",
+            "explain basic rolls",
+            "explain what a basic roll is",
+            "explain what basic rolls are"
+          ]
+        },
+        {
+          "name": "ExplainNotEnoughModelsIntent",
+          "slots": [],
+          "samples": [
+            "explain not enough models",
+            "explain running out of models",
+            "explain what to do when running out of models",
+            "explain what to do when not having enough models",
+            "explain having not enough models",
+            "explain having too few models",
+            "explain too few models"
+          ]
+        },
+
+        {
+          "name": "ExplainOverflowIntent",
+          "slots": [],
+          "samples": [
+            "explain board overflow",
+            "explain overflow",
+            "explain miniature overflow",
+            "explain miniature doesn't fit on the board",
+            "explain miniature doesn't fit on the map tile",
+            "explain miniature doesn't fit on the map",
+            "explain miniature doesn't fit on the tile",
+            "explain enemy overflow",
+            "explain enemy doesn't fit on the board",
+            "explain enemy doesn't fit on the map tile",
+            "explain enemy doesn't fit on the map",
+            "explain enemy doesn't fit on the tile",
+            "explain monster overflow",
+            "explain monster doesn't fit on the board",
+            "explain monster doesn't fit on the map tile",
+            "explain monster doesn't fit on the map",
+            "explain monster doesn't fit on the tile"
+          ]
+        },
+        {
+          "name": "ExplainOtherWorldIntent",
+          "slots": [],
+          "samples": [
+            "explain other world",
+            "explain other worlds",
+            "explain what an other world is",
+            "explain what other worlds are"
+          ]
+        },
+
+
+        {
+          "name": "ExplainPerilDieIntent",
+          "slots": [],
+          "samples": [
+            "explain peril dice",
+            "explain peril die",
+            "explain what a peril die is",
+            "explain what a peril dice are",
+            "explain what are peril dice",
+            "explain what is a peril die",
+            "explain what is a peril dice"
+          ]
+        },
+        {
+          "name": "ExplainPlacingEnemiesIntent",
+          "slots": [],
+          "samples": [
+            "explain placing enemies",
+            "explain placing monsters",
+            "explain enemy placement",
+            "explain monster placement",
+            "explain how enemies are placed",
+            "explain how monsters are placed",
+            "explain positioning enemies",
+            "explain positioning monsters",
+            "explain enemy positioning",
+            "explain monster positioning",
+            "explain how enemies are positioned",
+            "explain how monsters are positioned"
+          ]
+        },
+        {
+          "name": "ExplainPoisonIntent",
+          "slots": [],
+          "samples": [
+            "explain poison",
+            "explain poisoned",
+            "explain getting poisoned",
+            "explain poisoned",
+            "explain poison token",
+            "explain poison tokens"
+          ]
+        },
+        {
+          "name": "ExplainPosseSizeIntent",
+          "slots": [],
+          "samples": [
+            "explain posse size",
+            "explain hero posse size",
+            "explain player posse size",
+            "explain adventurer posse size",
+            "explain group size",
+            "explain hero group size",
+            "explain player group size",
+            "explain adventurer group size",
+            "explain player count"
+          ]
+        },
+        {
+          "name": "ExplainPreacherIntent",
+          "slots": [],
+          "samples": [
+            "explain preacher",
+            "explain priest",
+            "explain nun",
+            "explain preacher class",
+            "explain priest class",
+            "explain nun class",
+            "explain preacher hero class",
+            "explain priest hero class",
+            "explain nun hero class",
+            "explain preacher adventurer class",
+            "explain priest adventurer class",
+            "explain nun adventurer class",
+            "explain preacher character class",
+            "explain priest character class",
+            "explain nun character class",
+            "explain preacher role",
+            "explain priest role",
+            "explain nun role",
+            "explain preacher hero role",
+            "explain priest hero role",
+            "explain nun hero role",
+            "explain preacher adventurer role",
+            "explain priest adventurer role",
+            "explain nun adventurer role",
+            "explain preacher character role",
+            "explain priest character role",
+            "explain nun character role"
+          ]
+        },
+        {
+          "name": "ExplainPushingAsideIntent",
+          "slots": [],
+          "samples": [
+            "explain pushing heroes",
+            "explain pushing characters",
+            "explain pushing heroes aside",
+            "explain pushingcharacters aside",
+            "explain pushing heroes away",
+            "explain pushing characters away",
+            "explain pushing",
+            "explain pushing away",
+            "explain pushing aside",
+            "explain pushing to the side",
+            "explain shoving"
+          ]
+        },
+
+        {
+          "name": "ExplainReviveTokenIntent",
+          "slots": [],
+          "samples": [
+            "explain revive token",
+            "explain revive tokens",
+            "explain revive",
+            "explain revives",
+            "explain how to revive",
+            "explain how to use revive tokens",
+            "explain how to use a revive token"
+          ]
+        },
+        {
+          "name": "ExplainRecoveryIntent",
+          "slots": [],
+          "samples": [
+            "explain recovery",
+            "explain recover",
+            "explain ko recovery",
+            "explain ko recover",
+            "explain how to recover",
+            "explain how to recover from ko",
+            "explain knockout recovery",
+            "explain knockout recover",
+            "explain how to recover",
+            "explain how to recover from knockout",
+            "explain how to recover from a knockout",
+            "explain how to recover from having been knocked out",
+            "explain hero recovery",
+            "explain hero recover",
+            "explain player recovery",
+            "explain player recover",
+            "explain adventurer recovery",
+            "explain adventurer recover"
+          ]
+        },
+        {
+          "name": "ExplainRerollIntent",
+          "slots": [],
+          "samples": [
+            "explain reroll",
+            "explain rerolls",
+            "explain rerolling",
+            "explain how to reroll"
+          ]
+        },
+        {
+          "name": "ExplainRunningOutOfCardsIntent",
+          "slots": [],
+          "samples": [
+            "explain running of of cards",
+            "explain having no more cards",
+            "explain having no cards left",
+            "explain empty card stack"
+          ]
+        },
+
+        {
+          "name": "ExplainSaloonGirlIntent",
+          "slots": [],
+          "samples": [
+            "explain saloon girl",
+            "explain saloon girl class",
+            "explain saloon girl character",
+            "explain saloon girl character class",
+            "explain saloon girl hero class",
+            "explain saloon girl adventurer class",
+            "explain saloon girl role",
+            "explain piano player",
+            "explain piano player class",
+            "explain piano player character",
+            "explain piano player character class",
+            "explain piano player hero class",
+            "explain piano player adventurer class",
+            "explain piano player role"
+          ]
+        },
+        {
+          "name": "ExplainSanityIntent",
+          "slots": [],
+          "samples": [
+            "explain sanity",
+            "explain sanity attribute",
+            "explain sanity value",
+            "explain mental health"
+          ]
+        },
+        {
+          "name": "ExplainScavengingIntent",
+          "slots": [],
+          "samples": [
+            "explain scavenging",
+            "explain scavenge",
+            "explain how to scavenge",
+            "explain how to scavenge for loot",
+            "explain how to scavenge a map tile",
+            "explain how to scavenge map tiles",
+            "explain how to scavenge rooms",
+            "explain scavenging rooms",
+            "explain scavenging map tiles",
+            "explain scavenging a map tile",
+            "explain scavenging for loot"
+          ]
+        },
+        {
+          "name": "ExplainSermonIntent",
+          "slots": [],
+          "samples": [
+            "explain sermons",
+            "explain sermon",
+            "explain priest sermons",
+            "explain preacher sermons",
+            "explain nun sermons",
+            "explain priest spells",
+            "explain preacher spells",
+            "explain nun spells"
+          ]
+        },
+        {
+          "name": "ExplainShadowsOfBrimstoneIntent",
+          "slots": [],
+          "samples": [
+            "explain shadows of brimstone"
+          ]
+        },
+        {
+          "name": "ExplainSharedXPIntent",
+          "slots": [],
+          "samples": [
+            "explain shared xp",
+            "explain shared experience",
+            "explain shared xp variant",
+            "explain shared experience variant",
+            "explain shared xp optional rule",
+            "explain shared experience optional rule",
+            "explain shared xp mode",
+            "explain shared experience mode"
+          ]
+        },
+        {
+          "name": "ExplainSidebagIntent",
+          "slots": [],
+          "samples": [
+            "explain sidebag",
+            "explain side bag",
+            "explain what a sidebag is",
+            "explain what is a sidebag",
+            "explain how to use a sidebag"
+          ]
+        },
+        {
+          "name": "ExplainSidebagTokenIntent",
+          "slots": [],
+          "samples": [
+            "explain sidebag token",
+            "explain side bag token",
+            "explain how to identify a sidebag token",
+            "explain how to identify a side bag token",
+            "explain what a sidebag token is"
+          ]
+        },
+        {
+          "name": "ExplainSingleHandedWeaponsIntent",
+          "slots": [],
+          "samples": [
+            "explain single handed weapon",
+            "explain single handed item",
+            "explain how to use a single handed weapon",
+            "explain how to use a single handed item",
+            "explain one handed weapon",
+            "explain one handed item",
+            "explain how to use a one handed weapon",
+            "explain how to use a one handed item"
+          ]
+        },
+        {
+          "name": "ExplainSkillsIntent",
+          "slots": [],
+          "samples": [
+            "explain skills",
+            "explain skill",
+            "explain what skills are",
+            "explain what a skill is",
+            "explain player skills",
+            "explain player skill",
+            "explain what player skills are",
+            "explain what a player skill is",
+            "explain hero skills",
+            "explain hero skill",
+            "explain what hero skills are",
+            "explain what a hero skill is",
+            "explain character skills",
+            "explain character skill",
+            "explain what character skills are",
+            "explain what a character skill is"
+          ]
+        },
+
+        {
+          "name": "ExplainThemedThreatDeckIntent",
+          "slots": [],
+          "samples": [
+            "explain themed threat deck",
+            "explain themed threat decks",
+            "explain themed enemies",
+            "explain themed monsters",
+            "explain themed threat deck game variant",
+            "explain themed threat decks game variant",
+            "explain themed threat decks optional rule",
+            "explain themed threat deck optional rule"
+          ]
+        },
+        {
+          "name": "ExplainExplainThreatCardIntentIntent",
+          "slots": [],
+          "samples": [
+            "explain threat",
+            "explain threats",
+            "explain threat cards",
+            "explain threat card"
+          ]
+        },
+        {
+          "name": "ExplainTurnOrderIntent",
+          "slots": [],
+          "samples": [
+            "explain turn order",
+            "explain turn phases",
+            "explain turn steps",
+            "explain turn structure",
+            "explain turns",
+            "explain turn"
+          ]
+        },
+        {
+          "name": "ExplainTonicIntent",
+          "slots": [],
+          "samples": [
+            "explain tonic",
+            "explain tonics",
+            "explain tonic tokens",
+            "explain tonic token",
+            "explain how to use tonic",
+            "explain how to use tonics",
+            "explain how to use tonic tokens",
+            "explain how to use a tonic token"
+          ]
+        },
+        {
+          "name": "ExplainToughEnemiesIntent",
+          "slots": [],
+          "samples": [
+            "explain tough",
+            "explain tough enemies",
+            "explain tough abilities",
+            "explain tough monsters",
+            "explain tough monster",
+            "explain tough enemy",
+            "explain tough ability"
+          ]
+        },
+        {
+          "name": "ExplainTownstayIntent",
+          "slots": [],
+          "samples": [
+            "explain town stay",
+            "explain townstay",
+            "explain staying in town",
+            "explain town event",
+            "explain townstay event"
+          ]
+        },
+        {
+          "name": "ExplainTradingIntent",
+          "slots": [],
+          "samples": [
+            "explain trade",
+            "explain trading",
+            "explain trading items",
+            "explain trading items between characters",
+            "explain trading items between heroes",
+            "explain trading items between players",
+            "explain trading items between adventurers"
+          ]
+        },
+        {
+          "name": "ExplainTravelIntent",
+          "slots": [],
+          "samples": [
+            "explain travel",
+            "explain travelling",
+            "explain travelling to town",
+            "explain travelling to city",
+            "explain travelling to village",
+            "explain travelling to a town",
+            "explain travelling to a city",
+            "explain travelling to a village",
+            "explain town travel"
+          ]
+        },
+
+        {
+          "name": "ExplainVoicesIntheDarkIntent",
+          "slots": [],
+          "samples": [
+            "explain voices in the dark",
+            "explain voices in the dark effect",
+            "explain what voices in the dark do",
+            "explain out of lantern range",
+            "explain out of lantern light range"
+          ]
+        },
+
+        {
+          "name": "ExplainUpgradeIntent",
+          "slots": [],
+          "samples": [
+            "explain upgrade",
+            "explain hero upgrade",
+            "explain item upgrade",
+            "explain weapon upgrade",
+            "explain upgrades",
+            "explain hero upgrades",
+            "explain item upgrades",
+            "explain weapon upgrades"
+          ]
+        },
+
+        {
+          "name": "ExplainItemWeightIntent",
+          "slots": [],
+          "samples": [
+            "explain weight",
+            "explain item weight",
+            "explain carrying weight",
+            "explain carrying capacity",
+            "explain maximum weight",
+            "explain anvils",
+            "explain anvil",
+            "explain anvil icon",
+            "explain anvil icons",
+            "explain weapon weight"
+          ]
+        },
+        {
+          "name": "ExplainWhiskeyIntent",
+          "slots": [],
+          "samples": [
+            "explain whiskey",
+            "explain whiskey tokens",
+            "explain whiskey token",
+            "explain how to use whiskey",
+            "explain how to drink whiskey",
+            "explain how to use whiskey tokens",
+            "explain how to use a whiskey token"
+          ]
+        }
+      ]
+    }
+  }
+}
