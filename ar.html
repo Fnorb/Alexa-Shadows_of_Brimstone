@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    //var question = handlerInput.requestEnvelope.request.intent.name;
+    question = "ExplainAmbushIntentt";
+
+    const ANSWERS = {
+        ExplainAmbushIntent: {
+            answer: "An enemy group ambushing the heroes is placed adjacent to the heroes, and gains +2 initiative for the first round of combat.",
+            tags: ["combat", "enemies"]
+        },
+        ExplainAdvancedEncountersIntent: {
+            answer: "An enemy group ambushing the heroes is placed adjacent to the heroes, and gains +2 initiative for the first round of combat.",
+            tags: ["optional rules"]
+        }
+    };
+
+    if(question in ANSWERS) {
+        console.log(ANSWERS[question].answer);
+    }
+    else {
+        console.log("not known");
+    }
+
+</script>
+
+</body>
+</html>

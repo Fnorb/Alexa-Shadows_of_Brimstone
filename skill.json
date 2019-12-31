@@ -365,10 +365,13 @@
           "samples": [
             "explain two hand icons",
             "explain two-handed weapon",
+            "explain two-handed weapons",
             "explain two-handed",
             "explain twohanded",
             "explain double handed weapon",
+            "explain double handed weapons",
             "explain doublehanded weapon",
+            "explain doublehanded weapons",
             "explain doublehanded",
             "explain double handed"
           ]
@@ -1128,6 +1131,7 @@
           "slots": [],
           "samples": [
             "explain peril dice",
+            "explain the peril die",
             "explain peril die",
             "explain what a peril die is",
             "explain what a peril dice are",
@@ -1403,6 +1407,7 @@
             "explain how to use a single handed weapon",
             "explain how to use a single handed item",
             "explain one handed weapon",
+            "explain one handed weapons",
             "explain one handed item",
             "explain how to use a one handed weapon",
             "explain how to use a one handed item"
