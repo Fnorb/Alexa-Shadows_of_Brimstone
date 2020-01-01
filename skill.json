@@ -1,9 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "shadows of brimstone explainer",
-
-
+      "invocationName": "shadows of brimstone explain",
       "intents": [
         {
           "name": "AMAZON.RepeatIntent",
@@ -15,18 +13,20 @@
         },
         {
           "name": "AMAZON.StopIntent",
-          "samples": []
+          "samples": [
+            "stop"
+          ]
         },
         {
           "name": "AMAZON.CancelIntent",
-          "samples": []
+          "samples": [
+            "cancel"
+          ]
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
           "samples": []
         },
-
-
         {
           "name": "ExplainAdvancedEncountersIntent",
           "slots": [],
@@ -36,7 +36,8 @@
             "explain advanced encounter game variant",
             "explain advanced encounters"
           ]
-        },        {
+        },
+        {
           "name": "ExplainAmbushIntent",
           "slots": [],
           "samples": [
@@ -81,8 +82,6 @@
             "explain armor"
           ]
         },
-
-
         {
           "name": "ExplainBandagesIntent",
           "slots": [],
@@ -174,8 +173,6 @@
             "explain brutal enemies"
           ]
         },
-
-
         {
           "name": "ExplainCancelIntent",
           "slots": [],
@@ -277,8 +274,6 @@
             "explain crits"
           ]
         },
-
-
         {
           "name": "ExplainDarkStoneIntent",
           "slots": [],
@@ -288,7 +283,8 @@
             "explain darkstone",
             "explain dark stone"
           ]
-        },        {
+        },
+        {
           "name": "ExplainDangerousDynamiteIntent",
           "slots": [],
           "samples": [
@@ -365,13 +361,10 @@
           "samples": [
             "explain two hand icons",
             "explain two-handed weapon",
-            "explain two-handed weapons",
             "explain two-handed",
             "explain twohanded",
             "explain double handed weapon",
-            "explain double handed weapons",
             "explain doublehanded weapon",
-            "explain doublehanded weapons",
             "explain doublehanded",
             "explain double handed"
           ]
@@ -409,8 +402,6 @@
             "explain throwing explosives"
           ]
         },
-
-
         {
           "name": "ExplainEliteAbilitiesIntent",
           "slots": [],
@@ -533,8 +524,6 @@
             "explain exploring a room"
           ]
         },
-
-
         {
           "name": "ExplainFaithIntent",
           "slots": [],
@@ -627,7 +616,6 @@
             "explain what are free attacks"
           ]
         },
-
         {
           "name": "ExplainGameSetupIntent",
           "slots": [],
@@ -736,7 +724,6 @@
             "explain gun slinger ammo"
           ]
         },
-
         {
           "name": "ExplainHardcoreIntent",
           "slots": [],
@@ -848,8 +835,6 @@
             "explain stopping the darkness"
           ]
         },
-
-
         {
           "name": "ExplainIndianScoutIntent",
           "slots": [],
@@ -875,7 +860,6 @@
             "explain initiative"
           ]
         },
-
         {
           "name": "ExplainJudgementsIntent",
           "slots": [],
@@ -892,8 +876,6 @@
             "explain what a judgement is"
           ]
         },
-
-
         {
           "name": "ExplainKillingEnemiesIntent",
           "slots": [],
@@ -922,7 +904,6 @@
             "explain getting knocked out"
           ]
         },
-
         {
           "name": "ExplainLawmanIntent",
           "slots": [],
@@ -968,8 +949,6 @@
             "explain looting after a fight"
           ]
         },
-
-
         {
           "name": "ExplainUSMarshalIntent",
           "slots": [],
@@ -1062,7 +1041,6 @@
             "explain curing mutations"
           ]
         },
-
         {
           "name": "ExplainNaturalRollIntent",
           "slots": [],
@@ -1090,7 +1068,6 @@
             "explain too few models"
           ]
         },
-
         {
           "name": "ExplainOverflowIntent",
           "slots": [],
@@ -1124,14 +1101,11 @@
             "explain what other worlds are"
           ]
         },
-
-
         {
           "name": "ExplainPerilDieIntent",
           "slots": [],
           "samples": [
             "explain peril dice",
-            "explain the peril die",
             "explain peril die",
             "explain what a peril die is",
             "explain what a peril dice are",
@@ -1235,7 +1209,6 @@
             "explain shoving"
           ]
         },
-
         {
           "name": "ExplainReviveTokenIntent",
           "slots": [],
@@ -1293,7 +1266,6 @@
             "explain empty card stack"
           ]
         },
-
         {
           "name": "ExplainSaloonGirlIntent",
           "slots": [],
@@ -1407,7 +1379,6 @@
             "explain how to use a single handed weapon",
             "explain how to use a single handed item",
             "explain one handed weapon",
-            "explain one handed weapons",
             "explain one handed item",
             "explain how to use a one handed weapon",
             "explain how to use a one handed item"
@@ -1435,7 +1406,6 @@
             "explain what a character skill is"
           ]
         },
-
         {
           "name": "ExplainThemedThreatDeckIntent",
           "slots": [],
@@ -1538,7 +1508,6 @@
             "explain town travel"
           ]
         },
-
         {
           "name": "ExplainVoicesIntheDarkIntent",
           "slots": [],
@@ -1550,7 +1519,6 @@
             "explain out of lantern light range"
           ]
         },
-
         {
           "name": "ExplainUpgradeIntent",
           "slots": [],
@@ -1565,7 +1533,6 @@
             "explain weapon upgrades"
           ]
         },
-
         {
           "name": "ExplainItemWeightIntent",
           "slots": [],
@@ -1594,8 +1561,23 @@
             "explain how to use whiskey tokens",
             "explain how to use a whiskey token"
           ]
+        },
+        {
+          "name": "listCategories",
+          "slots": [
+            {
+              "name": "category",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "tell me about {category}",
+            "list category {category}",
+            "list {category}"
+          ]
         }
-      ]
+      ],
+      "types": []
     }
   }
 }

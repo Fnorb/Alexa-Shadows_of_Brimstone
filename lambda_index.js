@@ -1,6 +1,7 @@
 /* eslint-disable  func-names */
 /* eslint-disable  no-console */
 
+var lastOutput = "";
 const Alexa = require('ask-sdk');
 const ANSWERS = {
   ExplainAmbushIntent: {
@@ -565,15 +566,21 @@ async handle(handlerInput) {
   var speechOutput = "";
 
   if(handlerInput.requestEnvelope.request.type === 'LaunchRequest') {
-    speechOutput = "Welcome to Shadows of Brimstone Explain. Just ask me to explain something. For example: explain dark stone, explain duel wielding, explain poison. Ask for help for more details.";
+    speechOutput = "Welcome to the Shadows of Brimstone Assistant. Just ask me to explain something, or ask for help to receive a quick introduction.";
+    lastOutput = speechOutput;
   }
   else if(handlerInput.requestEnvelope.request.type === 'IntentRequest') {
     var question = handlerInput.requestEnvelope.request.intent.name;
 
     speechOutput = "I do not know the answer to this.";
+    if(question == "listCategories") {
+      speechOutput = "telling about category X";
+    }
     if(question in ANSWERS) {
       speechOutput = ANSWERS[question].answer;
     }
+
+    lastOutput = speechOutput;
   }
 
   var response =  handlerInput.responseBuilder.speak(speechOutput).reprompt("helloooo?").getResponse();
@@ -584,6 +591,7 @@ async handle(handlerInput) {
 
 const HelpHandler = {
   canHandle(handlerInput) {
+  lastOutput = HELP_MESSAGE;
   const request = handlerInput.requestEnvelope.request;
   return request.type === 'IntentRequest'
       && request.intent.name === 'AMAZON.HelpIntent';
@@ -598,18 +606,45 @@ handle(handlerInput) {
 
 const ExitHandler = {
   canHandle(handlerInput) {
-  console.log(`exit 375`);
-  const request = handlerInput.requestEnvelope.request;
-  return request.type === 'IntentRequest'
-      && (request.intent.name === 'AMAZON.CancelIntent'
-      || request.intent.name === 'AMAZON.StopIntent');
-},
-handle(handlerInput) {
-  return handlerInput.responseBuilder
+    console.log(`exit 375`);
+    const request = handlerInput.requestEnvelope.request;
+    return request.type === 'IntentRequest'
+      && (request.intent.name === 'AMAZON.StopIntent');
+  },
+  handle(handlerInput) {
+    return handlerInput.responseBuilder
       .speak(STOP_MESSAGE)
       .withShouldEndSession(true)
       .getResponse();
-},
+  },
+};
+
+const CancelHandler = {
+  canHandle(handlerInput) {
+    console.log(`exit 375`);
+    const request = handlerInput.requestEnvelope.request;
+    return request.type === 'IntentRequest'
+      && (request.intent.name === 'AMAZON.CancelIntent');
+  },
+  handle(handlerInput) {
+    return handlerInput.responseBuilder
+      .speak(CANCEL_MESSAGE)
+      .withShouldEndSession(false)
+      .getResponse();
+  },
+};
+const RepeatHandler = {
+  canHandle(handlerInput) {
+    const request = handlerInput.requestEnvelope.request;
+    return request.type === 'IntentRequest'
+      && (request.intent.name === 'AMAZON.RepeatIntent');
+  },
+  handle(handlerInput) {
+    return handlerInput.responseBuilder
+      .speak(lastOutput)
+      .withShouldEndSession(false)
+      .getResponse();
+  },
 };
 
 const SessionEndedRequestHandler = {
@@ -638,9 +673,11 @@ handle(handlerInput, error) {
 },
 };
 
-const HELP_MESSAGE = "I can tell you about the following categories: " + CATLIST + ". Which category?";
-const HELP_REPROMPT = 'What can I help you with?';
+/*const HELP_MESSAGE = "I can tell you about the following categories: " + CATLIST + ". Which category?";*/
+const HELP_MESSAGE = 'I help the best if you just ask me to explain something. For example: explain poison, or explain depth event. You can also ask me for a list of broad categories I have information about. If I speak too quickly, ask me to repeat. If I speak too much, ask Alexa to cancel.';
+const HELP_REPROMPT = 'What?';
 const STOP_MESSAGE = 'Goodbye!';
+const CANCEL_MESSAGE = 'cancelling!';
 const skillBuilder = Alexa.SkillBuilders.standard();
 
 
@@ -648,6 +685,8 @@ exports.handler = skillBuilder
     .addRequestHandlers(
     HelpHandler,
     ExitHandler,
+    RepeatHandler,
+    CancelHandler,
     ExplainSkillHandler,
     SessionEndedRequestHandler
 )
