@@ -361,7 +361,7 @@ const ANSWERS = {
   ExplainPoisonIntent: {
     answer: "At the beginning of their activation, a poisoned hero rolls one D6 for each poison counter they have. On a roll of 1 or 2, that hero takes one wound ignoring defense. On a roll of 6, the poison has worn off, and that poison counter is removed.",
     name:	"poison",
-    tags: ["combat", "game concepts", "afflictions", "enemies"]
+    tags: ["combat", "game concepts", "enemies"]
   },
   ExplainEnemyRangedAttackIntent: {
     answer: "Some enemies have ranged attacks. They do not move unless they have no target in range, in which case they move towards the closest hero in line of sight and target them. If a hero is adjacent to that enemy, that hero is targeted first. If a ranged enemy has multiple heroes to choose from, they change targets each turn. An enemy with ranged and melee attacks will behave like a ranged enemy, unless heroes are adjacent, in which case it uses its melee attacks only.",
@@ -501,7 +501,7 @@ const ANSWERS = {
   ExplainUpgradeIntent: {
     answer: 'There are two types of upgrades in Shadows of Brimstone. One refers to the permanent bonus a hero gains when levelling up. The other refers to item upgrades. Items can have up to three upgrade slots. To upgrade an item, visit a blacksmith in town. There are two types of upgrades: forged dark stone and upgrade cards. A forged dark stone upgrade can never be removed. An upgrade card can be removed at any time. You can not have more than one upgrade card of the same type applied to an item.',
     name:	"upgrades",
-    tags: ["heroes", "eqipment"]
+    tags: ["heroes", "equipment"]
   },
   ExplainUSMarshalIntent: {
     answer: "The US marshal class is with their powerful defense a strong frontline fighter. With their shotgun and doubleshot abilities, they can also deal a lot of damage, and using their badge allows them to boost their fellow heroes.",
@@ -531,7 +531,7 @@ const ANSWERS = {
   ExplainMutationIntent: {
     answer: "If you have as many corruption points as corruption resistence (default 5), remove that many points and roll on the mutation table. If you would ever acquire the same mutation twice at the same time, you turn into a pile of goo. That means that you are dead, for good. No resurrection possible.",
     name:	"mutations",
-    tags: ["afflictions", "heroes"]
+    tags: ["heroes"]
   },
   ExplainPushingAsideIntent: {
     answer: "Large and extra large enemies and heroes can push aside small or medium sized enemies to reach a hero. Those enemies are then pushed to the field the large one has just left, swapping places. Large enemies may push aside any number of small or medium enemies, but no heroes or other large enemies. An enemy four spaces big is considered extra large. Choose one of the four spaces for placement and moving, the rest of the model must be on valid spaces as well.",
@@ -544,6 +544,17 @@ const ANSWERS = {
     tags: ["equipment"]
   }
 };
+
+const CATLIST = getCats();
+function getCats() {
+  var cats = new Set();
+  for(var i in ANSWERS) {
+    for(var b in ANSWERS[i].tags) {
+      cats.add(ANSWERS[i].tags[b]);
+    }
+  }
+  return Array.from(cats).sort();
+}
 
 const ExplainSkillHandler = {
   async canHandle(handlerInput) {
@@ -627,7 +638,7 @@ handle(handlerInput, error) {
 },
 };
 
-const HELP_MESSAGE = 'You can say tell me a space fact, or, you can say exit... What can I help you with?';
+const HELP_MESSAGE = "I can tell you about the following categories: " + CATLIST + ". Which category?";
 const HELP_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
 const skillBuilder = Alexa.SkillBuilders.standard();
