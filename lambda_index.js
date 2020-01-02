@@ -546,7 +546,18 @@ const ANSWERS = {
   }
 };
 
-const CATLIST = getCats();
+function fetchAnswersByCategory(category) {
+  var answersArray = [];
+  for(var i in ANSWERS) {
+    if(ANSWERS[i].tags.includes(category)) {
+      answersArray.push(ANSWERS[i].name);
+    }
+  }
+  return answersArray.sort().join();
+}
+
+const CATSET = getCats();
+const CATSTRING = Array.from(CATSET).sort();
 function getCats() {
   var cats = new Set();
   for(var i in ANSWERS) {
@@ -554,7 +565,7 @@ function getCats() {
       cats.add(ANSWERS[i].tags[b]);
     }
   }
-  return Array.from(cats).sort();
+  return cats;
 }
 
 const ExplainSkillHandler = {
@@ -574,13 +585,45 @@ async handle(handlerInput) {
 
     speechOutput = "I do not know the answer to this.";
     if(question == "listCategories") {
-      speechOutput = "telling about category X";
+      speechOutput = "I can tell you about the following categories: " + CATSTRING + ". Feel free to ask me to list one category. For example: list " + CATSET.values().next().value;
     }
-    if(question in ANSWERS) {
+    else if(question == "listCategory") {
+      // const subject = this.event.request.intent.slots.category.value;
+      var category = handlerInput.requestEnvelope.request.intent.slots.category.value;
+      switch(category) {
+        case "side bag":
+        case "side back":
+        case "sideback":
+              category = "sidebag";
+              break;
+        case "game concerts":
+        case "game contents":
+        case "gain concerts":
+        case "gain contents":
+              category = "game concepts";
+              break;
+        case "mission":
+        case "adventure":
+        case "adventures":
+              category = "missions";
+              break;
+        case "enemies":
+              category = "enemy";
+              break;
+      }
+      if(CATSET.has(category)) {
+        speechOutput = "I can explain to you the following " + category + " related subjects: " + fetchAnswersByCategory(category);
+      }
+      else {
+        speechOutput = "I don't know the category " + category + ". The categories I do know are as follows: " + CATSTRING;
+      }
+    }
+    else if(question in ANSWERS) {
       speechOutput = ANSWERS[question].answer;
     }
 
     lastOutput = speechOutput;
+    speechOutput = "hupsa: " + question;
   }
 
   var response =  handlerInput.responseBuilder.speak(speechOutput).reprompt("helloooo?").getResponse();
@@ -599,52 +642,52 @@ const HelpHandler = {
 handle(handlerInput) {
   return handlerInput.responseBuilder
       .speak(HELP_MESSAGE)
-      .reprompt(HELP_REPROMPT)
+//      .reprompt(HELP_REPROMPT)
       .getResponse();
 },
 };
 
 const ExitHandler = {
   canHandle(handlerInput) {
-    console.log(`exit 375`);
-    const request = handlerInput.requestEnvelope.request;
-    return request.type === 'IntentRequest'
+  console.log(`exit 375`);
+  const request = handlerInput.requestEnvelope.request;
+  return request.type === 'IntentRequest'
       && (request.intent.name === 'AMAZON.StopIntent');
-  },
-  handle(handlerInput) {
-    return handlerInput.responseBuilder
+},
+handle(handlerInput) {
+  return handlerInput.responseBuilder
       .speak(STOP_MESSAGE)
       .withShouldEndSession(true)
       .getResponse();
-  },
+},
 };
 
 const CancelHandler = {
   canHandle(handlerInput) {
-    console.log(`exit 375`);
-    const request = handlerInput.requestEnvelope.request;
-    return request.type === 'IntentRequest'
+  console.log(`exit 375`);
+  const request = handlerInput.requestEnvelope.request;
+  return request.type === 'IntentRequest'
       && (request.intent.name === 'AMAZON.CancelIntent');
-  },
-  handle(handlerInput) {
-    return handlerInput.responseBuilder
+},
+handle(handlerInput) {
+  return handlerInput.responseBuilder
       .speak(CANCEL_MESSAGE)
       .withShouldEndSession(false)
       .getResponse();
-  },
+},
 };
 const RepeatHandler = {
   canHandle(handlerInput) {
-    const request = handlerInput.requestEnvelope.request;
-    return request.type === 'IntentRequest'
+  const request = handlerInput.requestEnvelope.request;
+  return request.type === 'IntentRequest'
       && (request.intent.name === 'AMAZON.RepeatIntent');
-  },
-  handle(handlerInput) {
-    return handlerInput.responseBuilder
+},
+handle(handlerInput) {
+  return handlerInput.responseBuilder
       .speak(lastOutput)
       .withShouldEndSession(false)
       .getResponse();
-  },
+},
 };
 
 const SessionEndedRequestHandler = {
@@ -673,11 +716,10 @@ handle(handlerInput, error) {
 },
 };
 
-/*const HELP_MESSAGE = "I can tell you about the following categories: " + CATLIST + ". Which category?";*/
-const HELP_MESSAGE = 'I help the best if you just ask me to explain something. For example: explain poison, or explain depth event. You can also ask me for a list of broad categories I have information about. If I speak too quickly, ask me to repeat. If I speak too much, ask Alexa to cancel.';
+const HELP_MESSAGE = 'I help the best if you just ask me to explain something. For example: explain poison, or explain depth event. You can also ask me for an index, and I will list of broad categories I have information about. If I speak too quickly, ask me to repeat. If I speak too much, ask Alexa to cancel.';
 const HELP_REPROMPT = 'What?';
 const STOP_MESSAGE = 'Goodbye!';
-const CANCEL_MESSAGE = 'cancelling!';
+const CANCEL_MESSAGE = 'Sorry.';
 const skillBuilder = Alexa.SkillBuilders.standard();
 
 

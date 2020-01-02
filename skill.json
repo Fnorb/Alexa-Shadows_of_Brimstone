@@ -1,11 +1,13 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "shadows of brimstone explain",
+      "invocationName": "shadows of brimstone assistant",
       "intents": [
         {
           "name": "AMAZON.RepeatIntent",
-          "samples": []
+          "samples": [
+            "repeat"
+          ]
         },
         {
           "name": "AMAZON.HelpIntent",
@@ -1136,8 +1138,8 @@
           "name": "ExplainPoisonIntent",
           "slots": [],
           "samples": [
+            "poison",
             "explain poison",
-            "explain poisoned",
             "explain getting poisoned",
             "explain poisoned",
             "explain poison token",
@@ -1564,6 +1566,16 @@
         },
         {
           "name": "listCategories",
+          "slots": [],
+          "samples": [
+            "categories",
+            "list categories",
+            "index",
+            "what categories do you have"
+          ]
+        },
+        {
+          "name": "listCategory",
           "slots": [
             {
               "name": "category",
@@ -1571,7 +1583,7 @@
             }
           ],
           "samples": [
-            "tell me about {category}",
+            "tell me about category {category}",
             "list category {category}",
             "list {category}"
           ]
