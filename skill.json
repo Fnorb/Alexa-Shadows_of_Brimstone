@@ -34,9 +34,25 @@
           "slots": [],
           "samples": [
             "explain advanced encounters game variant",
+			"advanced encounters game variant",
             "explain advanced encounter",
+			"advanced encounter",
             "explain advanced encounter game variant",
-            "explain advanced encounters"
+			"advanced encounter game variant",
+            "explain advanced encounters",
+			"advanced encounters",
+            "explain advanced encounters",
+			"advanced encounters",
+            "explain advanced encounters game variant",
+			"advanced encounters game variant",
+            "explain advanced encounter",
+			"advanced encounter",
+            "explain advanced encounter game variant",
+			"advanced encounter game variant",
+            "explain advanced encounters",
+			"advanced encounters",
+            "explain advanced encounters",
+			"advanced encounters"
           ]
         },
         {
@@ -44,16 +60,27 @@
           "slots": [],
           "samples": [
             "explain enemy ambush attack",
+			"enemy ambush attack",
             "explain monster ambush attacks",
+			"monster ambush attacks",
             "explain monster ambush attack",
+			"monster ambush attack",
             "explain monster ambushes",
+			"monster ambushes",
             "explain enemy ambush",
+			"enemy ambush",
             "explain monster ambush",
+			"monster ambush",
             "explain enemy ambush attacks",
+			"enemy ambush attacks",
             "explain enemy ambushes",
+			"enemy ambushes",
             "explain ambush attacks",
+			"ambush attacks",
             "explain ambushes",
-            "explain ambush"
+			"ambushes",
+            "explain ambush",
+			"ambush"
           ]
         },
         {
@@ -61,13 +88,21 @@
           "slots": [],
           "samples": [
             "explain rifle ammunition",
+			"rifle ammunition",
             "explain rifle ammo",
+			"rifle ammo",
             "explain gun ammunition",
+			"gun ammunition",
             "explain gun ammo",
+			"gun ammo",
             "explain ammunition types",
+			"ammunition types",
             "explain ammo types",
+			"ammo types",
             "explain ammunition",
-            "explain ammo"
+			"ammunition",
+            "explain ammo",
+			"ammo"
           ]
         },
         {
@@ -75,13 +110,21 @@
           "slots": [],
           "samples": [
             "explain what is spirit armor",
+			"what is spirit armor",
             "explain how to use spirit armor",
+			"how to use spirit armor",
             "explain how spirit armor works",
+			"how spirit armor works",
             "explain what is armor",
+			"what is armor",
             "explain how to use armor",
+			"how to use armor",
             "explain how armor works",
+			"how armor works",
             "explain spirit armor",
-            "explain armor"
+			"spirit armor",
+            "explain armor",
+			"armor"
           ]
         },
         {
@@ -89,12 +132,19 @@
           "slots": [],
           "samples": [
             "explain how to use a bandage",
+			"how to use a bandage",
             "explain how to use bandages",
+			"how to use bandages",
             "explain bandaging",
+			"bandaging",
             "explain bandage token",
+			"bandage token",
             "explain bandage tokens",
+			"bandage tokens",
             "explain bandage",
-            "explain bandages"
+			"bandage",
+            "explain bandages",
+			"bandages"
           ]
         },
         {
@@ -102,11 +152,17 @@
           "slots": [],
           "samples": [
             "explain bandido hero classes",
+			"bandido hero classes",
             "explain bandido classes",
+			"bandido classes",
             "explain bandido hero class",
+			"bandido hero class",
             "explain bandido hero",
+			"bandido hero",
             "explain bandido class",
-            "explain bandido"
+			"bandido class",
+            "explain bandido",
+			"bandido"
           ]
         },
         {
@@ -114,11 +170,17 @@
           "slots": [],
           "samples": [
             "explain what is basic combat",
+			"what is basic combat",
             "explain what basic combat is",
+			"what basic combat is",
             "explain basic combat mode",
+			"basic combat mode",
             "explain basic combat optional rule",
+			"basic combat optional rule",
             "explain basic combat variation",
-            "explain basic combat"
+			"basic combat variation",
+            "explain basic combat",
+			"basic combat"
           ]
         },
         {
@@ -126,12 +188,19 @@
           "slots": [],
           "samples": [
             "explain the basic game optional rule",
+			"the basic game optional rule",
             "explain basic game optional rule",
+			"basic game optional rule",
             "explain the basic game variant",
+			"the basic game variant",
             "explain basic game variant",
+			"basic game variant",
             "explain basic game mode",
+			"basic game mode",
             "explain the basic game",
-            "explain basic game"
+			"the basic game",
+            "explain basic game",
+			"basic game"
           ]
         },
         {
@@ -139,12 +208,19 @@
           "slots": [],
           "samples": [
             "explain beneath the darkness game variant",
+			"beneath the darkness game variant",
             "explain below the darkness game variant",
+			"below the darkness game variant",
             "explain beneath the darkness optional rule",
+			"beneath the darkness optional rule",
             "explain below the darkness optional rule",
+			"below the darkness optional rule",
             "explain what is below the darkness",
+			"what is below the darkness",
             "explain beneath the darkness",
-            "explain below the darkness"
+			"beneath the darkness",
+            "explain below the darkness",
+			"below the darkness"
           ]
         },
         {
@@ -152,13 +228,21 @@
           "slots": [],
           "samples": [
             "explain preacher blessings",
+			"preacher blessings",
             "explain priest blessings",
+			"priest blessings",
             "explain nun blessings",
+			"nun blessings",
             "explain preacher blessing",
+			"preacher blessing",
             "explain priest blessing",
+			"priest blessing",
             "explain nun blessing",
+			"nun blessing",
             "explain blessings",
-            "explain blessing"
+			"blessings",
+            "explain blessing",
+			"blessing"
           ]
         },
         {
@@ -166,13 +250,21 @@
           "slots": [],
           "samples": [
             "explain brutal rule",
+			"brutal rule",
             "explain brutal monsters",
+			"brutal monsters",
             "explain brutal monster",
+			"brutal monster",
             "explain brutality enemies",
+			"brutality enemies",
             "explain what brutal enemies are",
+			"what brutal enemies are",
             "explain what a brutal enemy is",
+			"what a brutal enemy is",
             "explain brutal enemy",
-            "explain brutal enemies"
+			"brutal enemy",
+            "explain brutal enemies",
+			"brutal enemies"
           ]
         },
         {
@@ -180,14 +272,23 @@
           "slots": [],
           "samples": [
             "explain what cancelling an ability means",
+			"what cancelling an ability means",
             "explain what cancelling a card means",
+			"what cancelling a card means",
             "explain what cancel means",
+			"what cancel means",
             "explain how to cancel an ability",
+			"how to cancel an ability",
             "explain how to cancel a card",
+			"how to cancel a card",
             "explain how to cancel",
+			"how to cancel",
             "explain cancelling an ability",
+			"cancelling an ability",
             "explain cancelling a card",
-            "explain cancel "
+			"cancelling a card",
+            "explain cancel ",
+			"cancel "
           ]
         },
         {
@@ -195,15 +296,25 @@
           "slots": [],
           "samples": [
             "explain spell difficulty",
+			"spell difficulty",
             "explain casting difficulty",
+			"casting difficulty",
             "explain spell requirement",
+			"spell requirement",
             "explain casting requirement",
+			"casting requirement",
             "explain spell requirements",
+			"spell requirements",
             "explain casting requirements",
+			"casting requirements",
             "explain spell number",
+			"spell number",
             "explain spell numbers",
+			"spell numbers",
             "explain casting number",
-            "explain casting numbers"
+			"casting number",
+            "explain casting numbers",
+			"casting numbers"
           ]
         },
         {
@@ -211,13 +322,21 @@
           "slots": [],
           "samples": [
             "explain catching ones breathe",
+			"catching ones breathe",
             "explain catching your breathe",
+			"catching your breathe",
             "explain catching my breathe",
+			"catching my breathe",
             "explain catching breathe",
+			"catching breathe",
             "explain catching ones breath",
+			"catching ones breath",
             "explain catching your breath",
+			"catching your breath",
             "explain catching my breath",
-            "explain catching breath"
+			"catching my breath",
+            "explain catching breath",
+			"catching breath"
           ]
         },
         {
@@ -225,21 +344,37 @@
           "slots": [],
           "samples": [
             "explain what a hint token is",
+			"what a hint token is",
             "explain what a clue token is",
+			"what a clue token is",
             "explain what hint tokens are",
+			"what hint tokens are",
             "explain what clue tokens are",
+			"what clue tokens are",
             "explain what hints are",
+			"what hints are",
             "explain what clues are",
+			"what clues are",
             "explain adventure progress",
+			"adventure progress",
             "explain mission progress",
+			"mission progress",
             "explain hint tokens",
+			"hint tokens",
             "explain hint token",
+			"hint token",
             "explain hint",
+			"hint",
             "explain hints",
+			"hints",
             "explain clue tokens",
+			"clue tokens",
             "explain clue token",
+			"clue token",
             "explain clue",
-            "explain clues"
+			"clue",
+            "explain clues",
+			"clues"
           ]
         },
         {
@@ -247,9 +382,13 @@
           "slots": [],
           "samples": [
             "explain corruption tokens",
+			"corruption tokens",
             "explain corrupt",
+			"corrupt",
             "explain corruption",
-            "explain corruption hits"
+			"corruption",
+            "explain corruption hits",
+			"corruption hits"
           ]
         },
         {
@@ -257,23 +396,39 @@
           "slots": [],
           "samples": [
             "explain hero crits",
+			"hero crits",
             "explain player crits",
+			"player crits",
             "explain hero crit",
+			"hero crit",
             "explain player crit",
+			"player crit",
             "explain ranged critical strikes",
+			"ranged critical strikes",
             "explain melee critical strikes",
+			"melee critical strikes",
             "explain ranged critical strike",
+			"ranged critical strike",
             "explain melee critical strike",
+			"melee critical strike",
             "explain ranged crits",
+			"ranged crits",
             "explained mele crits",
             "explained ranged crit",
             "explain melee crit",
+			"melee crit",
             "explain a critical strike",
+			"a critical strike",
             "explain a critical hit",
+			"a critical hit",
             "explain critical strikes",
+			"critical strikes",
             "explain critical hits",
+			"critical hits",
             "explain crit",
-            "explain crits"
+			"crit",
+            "explain crits",
+			"crits"
           ]
         },
         {
@@ -281,9 +436,13 @@
           "slots": [],
           "samples": [
             "explain darkstones",
+			"darkstones",
             "explain dark stones",
+			"dark stones",
             "explain darkstone",
-            "explain dark stone"
+			"darkstone",
+            "explain dark stone",
+			"dark stone"
           ]
         },
         {
@@ -291,11 +450,17 @@
           "slots": [],
           "samples": [
             "explain dangerous dynamite optional rule",
+			"dangerous dynamite optional rule",
             "explain dangerous dynamite game variant",
+			"dangerous dynamite game variant",
             "explain dangerous dynamite game mode",
+			"dangerous dynamite game mode",
             "explain dangerious dynamites",
+			"dangerious dynamites",
             "explain dangerous bombs",
-            "explain dangerous dynamite"
+			"dangerous bombs",
+            "explain dangerous dynamite",
+			"dangerous dynamite"
           ]
         },
         {
@@ -303,18 +468,31 @@
           "slots": [],
           "samples": [
             "explain dangerous judgement",
+			"dangerous judgement",
             "explain dangerous blessing",
+			"dangerous blessing",
             "explain dangerous sermon",
+			"dangerous sermon",
             "explain tentacle icon spells",
+			"tentacle icon spells",
             "explain tentacle icon spell",
+			"tentacle icon spell",
             "explain tentacle spells",
+			"tentacle spells",
             "explain tentacle spell",
+			"tentacle spell",
             "explain evil spells",
+			"evil spells",
             "explain difficult spell",
+			"difficult spell",
             "explain evil spell",
+			"evil spell",
             "explain what a dangerous spell is",
+			"what a dangerous spell is",
             "explain dangerous spell",
-            "explain dangerous spells"
+			"dangerous spell",
+            "explain dangerous spells",
+			"dangerous spells"
           ]
         },
         {
@@ -322,13 +500,21 @@
           "slots": [],
           "samples": [
             "explain what defense is",
+			"what defense is",
             "explain monster defense",
+			"monster defense",
             "explain enemy defense",
+			"enemy defense",
             "explain player defense",
+			"player defense",
             "explain hero defense",
+			"hero defense",
             "explain how defense works",
+			"how defense works",
             "explain defenses",
-            "explain defense"
+			"defenses",
+            "explain defense",
+			"defense"
           ]
         },
         {
@@ -336,11 +522,17 @@
           "slots": [],
           "samples": [
             "explain the depth events",
+			"the depth events",
             "explain the depth event",
+			"the depth event",
             "explain death events",
+			"death events",
             "explain death event",
+			"death event",
             "explain depth events",
-            "explain depth event"
+			"depth events",
+            "explain depth event",
+			"depth event"
           ]
         },
         {
@@ -348,13 +540,21 @@
           "slots": [],
           "samples": [
             "explain the death tracks",
+			"the death tracks",
             "explain the death track",
+			"the death track",
             "explain the depth tracks",
+			"the depth tracks",
             "explain the depth track",
+			"the depth track",
             "explain death tracks",
+			"death tracks",
             "explain death track",
+			"death track",
             "explain depth tracks",
-            "explain depth track"
+			"depth tracks",
+            "explain depth track",
+			"depth track"
           ]
         },
         {
@@ -362,13 +562,21 @@
           "slots": [],
           "samples": [
             "explain two hand icons",
+			"two hand icons",
             "explain two-handed weapon",
+			"two-handed weapon",
             "explain two-handed",
+			"two-handed",
             "explain twohanded",
+			"twohanded",
             "explain double handed weapon",
+			"double handed weapon",
             "explain doublehanded weapon",
+			"doublehanded weapon",
             "explain doublehanded",
-            "explain double handed"
+			"doublehanded",
+            "explain double handed",
+			"double handed"
           ]
         },
         {
@@ -376,15 +584,25 @@
           "slots": [],
           "samples": [
             "explain duel wield",
+			"duel wield",
             "explain duel wielding",
+			"duel wielding",
             "explain duel weld",
+			"duel weld",
             "explain duel welding",
+			"duel welding",
             "explain how to duel wield",
+			"how to duel wield",
             "explain how duel wielding works",
+			"how duel wielding works",
             "explain wielding two weapons",
+			"wielding two weapons",
             "explain wielding a second weapon",
+			"wielding a second weapon",
             "explain wielding an offhand weapon",
-            "explain wielding an offhand weapon"
+			"wielding an offhand weapon",
+            "explain wielding an offhand weapon",
+			"wielding an offhand weapon"
           ]
         },
         {
@@ -392,16 +610,27 @@
           "slots": [],
           "samples": [
             "explain dynamite",
+			"dynamite",
             "explain fire sake",
+			"fire sake",
             "explain bomb",
+			"bomb",
             "explain bombs",
+			"bombs",
             "explain tnt",
+			"tnt",
             "explain explosives",
+			"explosives",
             "explain throwing bomb",
+			"throwing bomb",
             "explain throwing bombs",
+			"throwing bombs",
             "explain throwing dynamite",
+			"throwing dynamite",
             "explain throwing fire sake",
-            "explain throwing explosives"
+			"throwing fire sake",
+            "explain throwing explosives",
+			"throwing explosives"
           ]
         },
         {
@@ -409,15 +638,25 @@
           "slots": [],
           "samples": [
             "explain elite",
+			"elite",
             "explain elites",
+			"elites",
             "explain elite abilities",
+			"elite abilities",
             "explain elite ability",
+			"elite ability",
             "explain how elite abilities work",
+			"how elite abilities work",
             "explain what an elite ability is",
+			"what an elite ability is",
             "explain elite monsters",
+			"elite monsters",
             "explain elite monster",
+			"elite monster",
             "explain elite enemy",
-            "explain elite enemies"
+			"elite enemy",
+            "explain elite enemies",
+			"elite enemies"
           ]
         },
         {
@@ -425,17 +664,29 @@
           "slots": [],
           "samples": [
             "explain enemy attacks",
+			"enemy attacks",
             "explain how enemies attack",
+			"how enemies attack",
             "explain attacking enemies",
+			"attacking enemies",
             "explain monster attacks",
+			"monster attacks",
             "explain how monster attack",
+			"how monster attack",
             "explain attacking monsters",
+			"attacking monsters",
             "explain enemy attack",
+			"enemy attack",
             "explain monster attack",
+			"monster attack",
             "explain enemy combat",
+			"enemy combat",
             "explain monster combat",
+			"monster combat",
             "explain enemy fight",
-            "explain monster fight"
+			"enemy fight",
+            "explain monster fight",
+			"monster fight"
           ]
         },
         {
@@ -443,15 +694,25 @@
           "slots": [],
           "samples": [
             "explain enemy movement",
+			"enemy movement",
             "explain monster movement",
+			"monster movement",
             "explain how enemies move",
+			"how enemies move",
             "explain how monsters move",
+			"how monsters move",
             "explain enemy turn",
+			"enemy turn",
             "explain monster turn",
+			"monster turn",
             "explain the enemy turn",
+			"the enemy turn",
             "explain the monster turn",
+			"the monster turn",
             "explain the enemies turn",
-            "explain the monsters turn"
+			"the enemies turn",
+            "explain the monsters turn",
+			"the monsters turn"
           ]
         },
         {
@@ -459,20 +720,35 @@
           "slots": [],
           "samples": [
             "explain enemy ranged attacks",
+			"enemy ranged attacks",
             "explain how enemies ranged attack",
+			"how enemies ranged attack",
             "explain ranged attacking enemies",
+			"ranged attacking enemies",
             "explain monster ranged attacks",
+			"monster ranged attacks",
             "explain ranged monster attacks",
+			"ranged monster attacks",
             "explain how monster attack at range",
+			"how monster attack at range",
             "explain ranged attacking monsters",
+			"ranged attacking monsters",
             "explain ranged enemy attack",
+			"ranged enemy attack",
             "explain ranged monster attack",
+			"ranged monster attack",
             "explain ranged enemy combat",
+			"ranged enemy combat",
             "explain ranged monster combat",
+			"ranged monster combat",
             "explain enemy ranged attack",
+			"enemy ranged attack",
             "explain monster ranged attack",
+			"monster ranged attack",
             "explain enemy ranged combat",
-            "explain monster ranged combat"
+			"enemy ranged combat",
+            "explain monster ranged combat",
+			"monster ranged combat"
           ]
         },
         {
@@ -480,14 +756,23 @@
           "slots": [],
           "samples": [
             "explain escaping darkness",
+			"escaping darkness",
             "explain darkness escape",
+			"darkness escape",
             "explain escaping of the darkness",
+			"escaping of the darkness",
             "explain darkness mine entrance",
+			"darkness mine entrance",
             "explain darkness getting out",
+			"darkness getting out",
             "explain darkness leaving",
+			"darkness leaving",
             "explain darkness reaching the mine entrance",
+			"darkness reaching the mine entrance",
             "explain darkness mine entrance",
-            "explain darkness"
+			"darkness mine entrance",
+            "explain darkness",
+			"darkness"
           ]
         },
         {
@@ -495,12 +780,19 @@
           "slots": [],
           "samples": [
             "explain escaping",
+			"escaping",
             "explain escape",
+			"escape",
             "explain escaping from enemies",
+			"escaping from enemies",
             "explain escaping from monsters",
+			"escaping from monsters",
             "explain escape movement",
+			"escape movement",
             "explain moving away from enemies",
-            "explain moving away from monsters"
+			"moving away from enemies",
+            "explain moving away from monsters",
+			"moving away from monsters"
           ]
         },
         {
@@ -508,11 +800,17 @@
           "slots": [],
           "samples": [
             "explain experience",
+			"experience",
             "explain xp",
+			"xp",
             "explain gaining experience",
+			"gaining experience",
             "explain gaining xp",
+			"gaining xp",
             "explain acquiring experience",
-            "explain acquiring xp"
+			"acquiring experience",
+            "explain acquiring xp",
+			"acquiring xp"
           ]
         },
         {
@@ -520,10 +818,15 @@
           "slots": [],
           "samples": [
             "explain exploring",
+			"exploring",
             "explain exploration",
+			"exploration",
             "explain room exploration",
+			"room exploration",
             "explain exploring rooms",
-            "explain exploring a room"
+			"exploring rooms",
+            "explain exploring a room",
+			"exploring a room"
           ]
         },
         {
@@ -531,10 +834,15 @@
           "slots": [],
           "samples": [
             "explain faith",
+			"faith",
             "explain faith tokens",
+			"faith tokens",
             "explain faith token",
+			"faith token",
             "explain priest faith",
-            "explain preacher faith"
+			"priest faith",
+            "explain preacher faith",
+			"preacher faith"
           ]
         },
         {
@@ -542,11 +850,17 @@
           "slots": [],
           "samples": [
             "explain faith cost",
+			"faith cost",
             "explain sermon cost",
+			"sermon cost",
             "explain blessing cost",
+			"blessing cost",
             "explain judgement cost",
+			"judgement cost",
             "explain priest spell cost",
-            "explain preacher spell cost"
+			"priest spell cost",
+            "explain preacher spell cost",
+			"preacher spell cost"
           ]
         },
         {
@@ -554,12 +868,19 @@
           "slots": [],
           "samples": [
             "explain fighting an enemy",
+			"fighting an enemy",
             "explain fighting enemies",
+			"fighting enemies",
             "explain fights",
+			"fights",
             "explain battles",
+			"battles",
             "explain battle",
+			"battle",
             "explain combat",
-            "explain fight"
+			"combat",
+            "explain fight",
+			"fight"
           ]
         },
         {
@@ -567,15 +888,25 @@
           "slots": [],
           "samples": [
             "explain fixed hero move",
+			"fixed hero move",
             "explain fixed hero move game mode",
+			"fixed hero move game mode",
             "explain fixed hero move game variant",
+			"fixed hero move game variant",
             "explain fixed hero move mode",
+			"fixed hero move mode",
             "explain fixed hero move variant",
+			"fixed hero move variant",
             "explain fixed character move",
+			"fixed character move",
             "explain fixed character move game mode",
+			"fixed character move game mode",
             "explain fixed character move game variant",
+			"fixed character move game variant",
             "explain fixed character move mode",
-            "explain fixed character move variant"
+			"fixed character move mode",
+            "explain fixed character move variant",
+			"fixed character move variant"
           ]
         },
         {
@@ -583,8 +914,11 @@
           "slots": [],
           "samples": [
             "explain flash",
+			"flash",
             "explain flash token",
-            "explain flash tokens"
+			"flash token",
+            "explain flash tokens",
+			"flash tokens"
           ]
         },
         {
@@ -592,19 +926,33 @@
           "slots": [],
           "samples": [
             "explain fleeing",
+			"fleeing",
             "explain flight",
+			"flight",
             "explain fleeing from a mission",
+			"fleeing from a mission",
             "explain fleeing from a dungeon",
+			"fleeing from a dungeon",
             "explain escaping from a mission",
+			"escaping from a mission",
             "explain escaping from a dungeon",
+			"escaping from a dungeon",
             "explain aborting a dungeon",
+			"aborting a dungeon",
             "explain running away from a dungeon",
+			"running away from a dungeon",
             "explain aborting a mission",
+			"aborting a mission",
             "explain running away from a mission",
+			"running away from a mission",
             "explain fleeing from an adventure",
+			"fleeing from an adventure",
             "explain escaping from an adventure",
+			"escaping from an adventure",
             "explain aborting an adventure",
-            "explain running away from an adventure"
+			"aborting an adventure",
+            "explain running away from an adventure",
+			"running away from an adventure"
           ]
         },
         {
@@ -612,10 +960,15 @@
           "slots": [],
           "samples": [
             "explain free attacks",
+			"free attacks",
             "explain free attack",
+			"free attack",
             "explain how to free attack",
+			"how to free attack",
             "explain how to do free attacks",
-            "explain what are free attacks"
+			"how to do free attacks",
+            "explain what are free attacks",
+			"what are free attacks"
           ]
         },
         {
@@ -623,10 +976,15 @@
           "slots": [],
           "samples": [
             "explain game setup",
+			"game setup",
             "explain setup",
+			"setup",
             "explain setting up the game",
+			"setting up the game",
             "explain how to set up the game",
-            "explain board setup"
+			"how to set up the game",
+            "explain board setup",
+			"board setup"
           ]
         },
         {
@@ -634,12 +992,19 @@
           "slots": [],
           "samples": [
             "explain game variants",
+			"game variants",
             "explain variants",
+			"variants",
             "explain game variations",
+			"game variations",
             "explain variations",
+			"variations",
             "explain optional rules",
+			"optional rules",
             "explain options",
-            "explain game options"
+			"options",
+            "explain game options",
+			"game options"
           ]
         },
         {
@@ -647,23 +1012,41 @@
           "slots": [],
           "samples": [
             "explain gates",
+			"gates",
             "explain portals",
+			"portals",
             "explain gate",
+			"gate",
             "explain portal",
+			"portal",
             "explain gateway",
+			"gateway",
             "explain gateways",
+			"gateways",
             "explain otherworld gates",
+			"otherworld gates",
             "explain otherworld portals",
+			"otherworld portals",
             "explain otherworld gate",
+			"otherworld gate",
             "explain otherworld portal",
+			"otherworld portal",
             "explain otherworld gateway",
+			"otherworld gateway",
             "explain otherworld gateways",
+			"otherworld gateways",
             "explain other world gates",
+			"other world gates",
             "explain other world portals",
+			"other world portals",
             "explain other world gate",
+			"other world gate",
             "explain other world portal",
+			"other world portal",
             "explain other world gateway",
-            "explain other world gateways"
+			"other world gateway",
+            "explain other world gateways",
+			"other world gateways"
           ]
         },
         {
@@ -671,9 +1054,13 @@
           "slots": [],
           "samples": [
             "explain gold",
+			"gold",
             "explain dollars",
+			"dollars",
             "explain currency",
-            "explain gold nuggets"
+			"currency",
+            "explain gold nuggets",
+			"gold nuggets"
           ]
         },
         {
@@ -681,10 +1068,15 @@
           "slots": [],
           "samples": [
             "explain grit",
+			"grit",
             "explain grit tokens",
+			"grit tokens",
             "explain how grit works",
+			"how grit works",
             "explain how to use grit",
-            "explain what grit is"
+			"how to use grit",
+            "explain what grit is",
+			"what grit is"
           ]
         },
         {
@@ -692,8 +1084,11 @@
           "slots": [],
           "samples": [
             "explain growing dread",
+			"growing dread",
             "explain growing dead",
-            "explain what growing dead is"
+			"growing dead",
+            "explain what growing dead is",
+			"what growing dead is"
           ]
         },
         {
@@ -701,17 +1096,29 @@
           "slots": [],
           "samples": [
             "explain gunslinger",
+			"gunslinger",
             "explain gun slinger",
+			"gun slinger",
             "explain gunslinger hero",
+			"gunslinger hero",
             "explain gun slinger hero",
+			"gun slinger hero",
             "explain gunslinger hero class",
+			"gunslinger hero class",
             "explain gun slinger hero class",
+			"gun slinger hero class",
             "explain gunslinger hero character",
+			"gunslinger hero character",
             "explain gun slinger hero character",
+			"gun slinger hero character",
             "explain gunslinger class",
+			"gunslinger class",
             "explain gun slinger class",
+			"gun slinger class",
             "explain gunslinger character",
-            "explain gun slinger character"
+			"gunslinger character",
+            "explain gun slinger character",
+			"gun slinger character"
           ]
         },
         {
@@ -719,11 +1126,17 @@
           "slots": [],
           "samples": [
             "explain gunslinger shots",
+			"gunslinger shots",
             "explain gun slinger shots",
+			"gun slinger shots",
             "explain gun slinger rounds",
+			"gun slinger rounds",
             "explain gunslinger rounds",
+			"gunslinger rounds",
             "explain gunslinger ammo",
-            "explain gun slinger ammo"
+			"gunslinger ammo",
+            "explain gun slinger ammo",
+			"gun slinger ammo"
           ]
         },
         {
@@ -731,10 +1144,15 @@
           "slots": [],
           "samples": [
             "explain hardcore",
+			"hardcore",
             "explain hardcore variant",
+			"hardcore variant",
             "explain hardcore mode",
+			"hardcore mode",
             "explain hardcore options",
-            "explain hardcore game variant"
+			"hardcore options",
+            "explain hardcore game variant",
+			"hardcore game variant"
           ]
         },
         {
@@ -742,18 +1160,31 @@
           "slots": [],
           "samples": [
             "explain healing",
+			"healing",
             "explain heal",
+			"heal",
             "explain how to heal",
+			"how to heal",
             "explain healing wounds",
+			"healing wounds",
             "explain healing a character",
+			"healing a character",
             "explain heal a character",
+			"heal a character",
             "explain how to heal character",
+			"how to heal character",
             "explain healing a player",
+			"healing a player",
             "explain heal a player",
+			"heal a player",
             "explain how to heal player",
+			"how to heal player",
             "explain healing a hero",
+			"healing a hero",
             "explain heal a hero",
-            "explain how to heal hero"
+			"heal a hero",
+            "explain how to heal hero",
+			"how to heal hero"
           ]
         },
         {
@@ -761,13 +1192,21 @@
           "slots": [],
           "samples": [
             "explain herbs",
+			"herbs",
             "explain herb",
+			"herb",
             "explain herb tokens",
+			"herb tokens",
             "explain herb token",
+			"herb token",
             "explain how to use herb",
+			"how to use herb",
             "explain how to use herbs",
+			"how to use herbs",
             "explain how to use herb tokens",
-            "explain how to use a herb token"
+			"how to use herb tokens",
+            "explain how to use a herb token",
+			"how to use a herb token"
           ]
         },
         {
@@ -775,14 +1214,23 @@
           "slots": [],
           "samples": [
             "explain hero classes",
+			"hero classes",
             "explain hero characters",
+			"hero characters",
             "explain character classes",
+			"character classes",
             "explain hero roles",
+			"hero roles",
             "explain adventurer classes",
+			"adventurer classes",
             "explain adventurer characters",
+			"adventurer characters",
             "explain adventurer roles",
+			"adventurer roles",
             "explain classes",
-            "explain roles"
+			"classes",
+            "explain roles",
+			"roles"
           ]
         },
         {
@@ -790,9 +1238,13 @@
           "slots": [],
           "samples": [
             "explain new hero creation",
+			"new hero creation",
             "explain new hero",
+			"new hero",
             "explain how to create a new hero",
-            "explain hero creation"
+			"how to create a new hero",
+            "explain hero creation",
+			"hero creation"
           ]
         },
         {
@@ -800,17 +1252,29 @@
           "slots": [],
           "samples": [
             "explain hero death",
+			"hero death",
             "explain hero kill",
+			"hero kill",
             "explain dying hero",
+			"dying hero",
             "explain player death",
+			"player death",
             "explain player kill",
+			"player kill",
             "explain dying player",
+			"dying player",
             "explain character death",
+			"character death",
             "explain character kill",
+			"character kill",
             "explain dying character",
+			"dying character",
             "explain adventurer death",
+			"adventurer death",
             "explain adventurer kill",
-            "explain dying adventurer"
+			"adventurer kill",
+            "explain dying adventurer",
+			"dying adventurer"
           ]
         },
         {
@@ -818,11 +1282,17 @@
           "slots": [],
           "samples": [
             "explain hit",
+			"hit",
             "explain hits",
+			"hits",
             "explain strike",
+			"strike",
             "explain strikes",
+			"strikes",
             "explain combat hit",
-            "explain combat hits"
+			"combat hit",
+            "explain combat hits",
+			"combat hits"
           ]
         },
         {
@@ -830,11 +1300,17 @@
           "slots": [],
           "samples": [
             "explain hold back the darkness",
+			"hold back the darkness",
             "explain holding back the darkness",
+			"holding back the darkness",
             "explain how to hold back the darkness",
+			"how to hold back the darkness",
             "explain darkness holdback",
+			"darkness holdback",
             "explain helding the darkness",
-            "explain stopping the darkness"
+			"helding the darkness",
+            "explain stopping the darkness",
+			"stopping the darkness"
           ]
         },
         {
@@ -842,11 +1318,17 @@
           "slots": [],
           "samples": [
             "explain indian scout",
+			"indian scout",
             "explain scout",
+			"scout",
             "explain indian",
+			"indian",
             "explain native american",
+			"native american",
             "explain native scout",
-            "explain native american scout"
+			"native scout",
+            "explain native american scout",
+			"native american scout"
           ]
         },
         {
@@ -854,12 +1336,19 @@
           "slots": [],
           "samples": [
             "explain init",
+			"init",
             "explain enemy initiative",
+			"enemy initiative",
             "explain player initiative",
+			"player initiative",
             "explain hero initiative",
+			"hero initiative",
             "explain order of activation",
+			"order of activation",
             "explain activation order",
-            "explain initiative"
+			"activation order",
+            "explain initiative",
+			"initiative"
           ]
         },
         {
@@ -867,15 +1356,25 @@
           "slots": [],
           "samples": [
             "explain judgement",
+			"judgement",
             "explain judgements",
+			"judgements",
             "explain priest judgement",
+			"priest judgement",
             "explain priest judgements",
+			"priest judgements",
             "explain preacher judgement",
+			"preacher judgement",
             "explain preacher judgements",
+			"preacher judgements",
             "explain nun judgement",
+			"nun judgement",
             "explain nun judgements",
+			"nun judgements",
             "explain what judgements are",
-            "explain what a judgement is"
+			"what judgements are",
+            "explain what a judgement is",
+			"what a judgement is"
           ]
         },
         {
@@ -883,9 +1382,13 @@
           "slots": [],
           "samples": [
             "explain kills",
+			"kills",
             "explain enemy kills",
+			"enemy kills",
             "explain killing an enemy",
-            "explain killing enemies"
+			"killing an enemy",
+            "explain killing enemies",
+			"killing enemies"
           ]
         },
         {
@@ -893,17 +1396,29 @@
           "slots": [],
           "samples": [
             "explain ko",
+			"ko",
             "explain knockout",
+			"knockout",
             "explain knocked out",
+			"knocked out",
             "explain player ko",
+			"player ko",
             "explain hero ko",
+			"hero ko",
             "explain character ko",
+			"character ko",
             "explain adventurer ko",
+			"adventurer ko",
             "explain player knockout",
+			"player knockout",
             "explain hero knockout",
+			"hero knockout",
             "explain character knockout",
+			"character knockout",
             "explain adventurer knockout",
-            "explain getting knocked out"
+			"adventurer knockout",
+            "explain getting knocked out",
+			"getting knocked out"
           ]
         },
         {
@@ -911,12 +1426,19 @@
           "slots": [],
           "samples": [
             "explain lawman",
+			"lawman",
             "explain lawman class",
+			"lawman class",
             "explain lawman character",
+			"lawman character",
             "explain lawman character class",
+			"lawman character class",
             "explain lawman hero class",
+			"lawman hero class",
             "explain lawman adventurer class",
-            "explain lawman role"
+			"lawman adventurer class",
+            "explain lawman role",
+			"lawman role"
           ]
         },
         {
@@ -924,17 +1446,29 @@
           "slots": [],
           "samples": [
             "explain looking",
+			"looking",
             "explain looking through",
+			"looking through",
             "explain looking at the next map tile",
+			"looking at the next map tile",
             "explain look",
+			"look",
             "explain looking through a door",
+			"looking through a door",
             "explain looking through a gate",
+			"looking through a gate",
             "explain peeking",
+			"peeking",
             "explain peeking through",
+			"peeking through",
             "explain peeking at the next map tile",
+			"peeking at the next map tile",
             "explain peek",
+			"peek",
             "explain peeking through a door",
-            "explain peeking through a gate"
+			"peeking through a door",
+            "explain peeking through a gate",
+			"peeking through a gate"
           ]
         },
         {
@@ -942,13 +1476,21 @@
           "slots": [],
           "samples": [
             "explain loot",
+			"loot",
             "explain gaining loot",
+			"gaining loot",
             "explain acquiring loot",
+			"acquiring loot",
             "explain looting",
+			"looting",
             "explain looting enemies",
+			"looting enemies",
             "explain looting monsters",
+			"looting monsters",
             "explain looting bodies",
-            "explain looting after a fight"
+			"looting bodies",
+            "explain looting after a fight",
+			"looting after a fight"
           ]
         },
         {
@@ -956,17 +1498,29 @@
           "slots": [],
           "samples": [
             "explain us marshal",
+			"us marshal",
             "explain marshal",
+			"marshal",
             "explain us marshal class",
+			"us marshal class",
             "explain marshal class",
+			"marshal class",
             "explain us marshal character class",
+			"us marshal character class",
             "explain marshal character class",
+			"marshal character class",
             "explain us marshal character",
+			"us marshal character",
             "explain marshal character",
+			"marshal character",
             "explain us marshal role",
+			"us marshal role",
             "explain marshal role",
+			"marshal role",
             "explain us marshal hero",
-            "explain marshal herp"
+			"us marshal hero",
+            "explain marshal herp",
+			"marshal herp"
           ]
         },
         {
@@ -974,14 +1528,23 @@
           "slots": [],
           "samples": [
             "explain melee",
+			"melee",
             "explain melee combat",
+			"melee combat",
             "explain close combat",
+			"close combat",
             "explain melee fighting",
+			"melee fighting",
             "explain melee combat fighting",
+			"melee combat fighting",
             "explain close combat fighting",
+			"close combat fighting",
             "explain hand to hand",
+			"hand to hand",
             "explain hand to hand combat",
-            "explain hand to hand fighting"
+			"hand to hand combat",
+            "explain hand to hand fighting",
+			"hand to hand fighting"
           ]
         },
         {
@@ -989,14 +1552,23 @@
           "slots": [],
           "samples": [
             "explain how to end an adventure",
+			"how to end an adventure",
             "explain how to end a mission",
+			"how to end a mission",
             "explain what to do after mission",
+			"what to do after mission",
             "explain completed adventure",
+			"completed adventure",
             "explain adventure completed",
+			"adventure completed",
             "explain adventure completion",
+			"adventure completion",
             "explain completed mission",
+			"completed mission",
             "explain mission completed",
-            "explain mission completion"
+			"mission completed",
+            "explain mission completion",
+			"mission completion"
           ]
         },
         {
@@ -1004,15 +1576,25 @@
           "slots": [],
           "samples": [
             "explain player movement",
+			"player movement",
             "explain character movement",
+			"character movement",
             "explain adventurer movement",
+			"adventurer movement",
             "explain hero movement",
+			"hero movement",
             "explain how player move",
+			"how player move",
             "explain how character move",
+			"how character move",
             "explain how adventurer move",
+			"how adventurer move",
             "explain how hero move",
+			"how hero move",
             "explain movement",
-            "explain how to move"
+			"movement",
+            "explain how to move",
+			"how to move"
           ]
         },
         {
@@ -1020,14 +1602,23 @@
           "slots": [],
           "samples": [
             "explain same hero game variant",
+			"same hero game variant",
             "explain same hero optional rule",
+			"same hero optional rule",
             "explain multiple of the same hero class",
+			"multiple of the same hero class",
             "explain multiple heroes of the same class",
+			"multiple heroes of the same class",
             "explain same class",
+			"same class",
             "explain having multiple heroes of the same class",
+			"having multiple heroes of the same class",
             "explain several of the same hero class",
+			"several of the same hero class",
             "explain several heroes of the same class",
-            "explain having several heroes of the same class"
+			"several heroes of the same class",
+            "explain having several heroes of the same class",
+			"having several heroes of the same class"
           ]
         },
         {
@@ -1035,12 +1626,19 @@
           "slots": [],
           "samples": [
             "explain mutation",
+			"mutation",
             "explain mutating",
+			"mutating",
             "explain mutations",
+			"mutations",
             "explain gaining mutations",
+			"gaining mutations",
             "explain gaining a mutation",
+			"gaining a mutation",
             "explain curing a mutation",
-            "explain curing mutations"
+			"curing a mutation",
+            "explain curing mutations",
+			"curing mutations"
           ]
         },
         {
@@ -1048,13 +1646,21 @@
           "slots": [],
           "samples": [
             "explain natural roll",
+			"natural roll",
             "explain natural rolls",
+			"natural rolls",
             "explain what a natural roll is",
+			"what a natural roll is",
             "explain what natural rolls are",
+			"what natural rolls are",
             "explain basic roll",
+			"basic roll",
             "explain basic rolls",
+			"basic rolls",
             "explain what a basic roll is",
-            "explain what basic rolls are"
+			"what a basic roll is",
+            "explain what basic rolls are",
+			"what basic rolls are"
           ]
         },
         {
@@ -1062,12 +1668,19 @@
           "slots": [],
           "samples": [
             "explain not enough models",
+			"not enough models",
             "explain running out of models",
+			"running out of models",
             "explain what to do when running out of models",
+			"what to do when running out of models",
             "explain what to do when not having enough models",
+			"what to do when not having enough models",
             "explain having not enough models",
+			"having not enough models",
             "explain having too few models",
-            "explain too few models"
+			"having too few models",
+            "explain too few models",
+			"too few models"
           ]
         },
         {
@@ -1075,22 +1688,39 @@
           "slots": [],
           "samples": [
             "explain board overflow",
+			"board overflow",
             "explain overflow",
+			"overflow",
             "explain miniature overflow",
+			"miniature overflow",
             "explain miniature doesn't fit on the board",
+			"miniature doesn't fit on the board",
             "explain miniature doesn't fit on the map tile",
+			"miniature doesn't fit on the map tile",
             "explain miniature doesn't fit on the map",
+			"miniature doesn't fit on the map",
             "explain miniature doesn't fit on the tile",
+			"miniature doesn't fit on the tile",
             "explain enemy overflow",
+			"enemy overflow",
             "explain enemy doesn't fit on the board",
+			"enemy doesn't fit on the board",
             "explain enemy doesn't fit on the map tile",
+			"enemy doesn't fit on the map tile",
             "explain enemy doesn't fit on the map",
+			"enemy doesn't fit on the map",
             "explain enemy doesn't fit on the tile",
+			"enemy doesn't fit on the tile",
             "explain monster overflow",
+			"monster overflow",
             "explain monster doesn't fit on the board",
+			"monster doesn't fit on the board",
             "explain monster doesn't fit on the map tile",
+			"monster doesn't fit on the map tile",
             "explain monster doesn't fit on the map",
-            "explain monster doesn't fit on the tile"
+			"monster doesn't fit on the map",
+            "explain monster doesn't fit on the tile",
+			"monster doesn't fit on the tile"
           ]
         },
         {
@@ -1098,9 +1728,13 @@
           "slots": [],
           "samples": [
             "explain other world",
+			"other world",
             "explain other worlds",
+			"other worlds",
             "explain what an other world is",
-            "explain what other worlds are"
+			"what an other world is",
+            "explain what other worlds are",
+			"what other worlds are"
           ]
         },
         {
@@ -1108,12 +1742,19 @@
           "slots": [],
           "samples": [
             "explain peril dice",
+			"peril dice",
             "explain peril die",
+			"peril die",
             "explain what a peril die is",
+			"what a peril die is",
             "explain what a peril dice are",
+			"what a peril dice are",
             "explain what are peril dice",
+			"what are peril dice",
             "explain what is a peril die",
-            "explain what is a peril dice"
+			"what is a peril die",
+            "explain what is a peril dice",
+			"what is a peril dice"
           ]
         },
         {
@@ -1121,17 +1762,29 @@
           "slots": [],
           "samples": [
             "explain placing enemies",
+			"placing enemies",
             "explain placing monsters",
+			"placing monsters",
             "explain enemy placement",
+			"enemy placement",
             "explain monster placement",
+			"monster placement",
             "explain how enemies are placed",
+			"how enemies are placed",
             "explain how monsters are placed",
+			"how monsters are placed",
             "explain positioning enemies",
+			"positioning enemies",
             "explain positioning monsters",
+			"positioning monsters",
             "explain enemy positioning",
+			"enemy positioning",
             "explain monster positioning",
+			"monster positioning",
             "explain how enemies are positioned",
-            "explain how monsters are positioned"
+			"how enemies are positioned",
+            "explain how monsters are positioned",
+			"how monsters are positioned"
           ]
         },
         {
@@ -1140,10 +1793,15 @@
           "samples": [
             "poison",
             "explain poison",
+			"poison",
             "explain getting poisoned",
+			"getting poisoned",
             "explain poisoned",
+			"poisoned",
             "explain poison token",
-            "explain poison tokens"
+			"poison token",
+            "explain poison tokens",
+			"poison tokens"
           ]
         },
         {
@@ -1151,14 +1809,23 @@
           "slots": [],
           "samples": [
             "explain posse size",
+			"posse size",
             "explain hero posse size",
+			"hero posse size",
             "explain player posse size",
+			"player posse size",
             "explain adventurer posse size",
+			"adventurer posse size",
             "explain group size",
+			"group size",
             "explain hero group size",
+			"hero group size",
             "explain player group size",
+			"player group size",
             "explain adventurer group size",
-            "explain player count"
+			"adventurer group size",
+            "explain player count",
+			"player count"
           ]
         },
         {
@@ -1166,32 +1833,59 @@
           "slots": [],
           "samples": [
             "explain preacher",
+			"preacher",
             "explain priest",
+			"priest",
             "explain nun",
+			"nun",
             "explain preacher class",
+			"preacher class",
             "explain priest class",
+			"priest class",
             "explain nun class",
+			"nun class",
             "explain preacher hero class",
+			"preacher hero class",
             "explain priest hero class",
+			"priest hero class",
             "explain nun hero class",
+			"nun hero class",
             "explain preacher adventurer class",
+			"preacher adventurer class",
             "explain priest adventurer class",
+			"priest adventurer class",
             "explain nun adventurer class",
+			"nun adventurer class",
             "explain preacher character class",
+			"preacher character class",
             "explain priest character class",
+			"priest character class",
             "explain nun character class",
+			"nun character class",
             "explain preacher role",
+			"preacher role",
             "explain priest role",
+			"priest role",
             "explain nun role",
+			"nun role",
             "explain preacher hero role",
+			"preacher hero role",
             "explain priest hero role",
+			"priest hero role",
             "explain nun hero role",
+			"nun hero role",
             "explain preacher adventurer role",
+			"preacher adventurer role",
             "explain priest adventurer role",
+			"priest adventurer role",
             "explain nun adventurer role",
+			"nun adventurer role",
             "explain preacher character role",
+			"preacher character role",
             "explain priest character role",
-            "explain nun character role"
+			"priest character role",
+            "explain nun character role",
+			"nun character role"
           ]
         },
         {
@@ -1199,16 +1893,27 @@
           "slots": [],
           "samples": [
             "explain pushing heroes",
+			"pushing heroes",
             "explain pushing characters",
+			"pushing characters",
             "explain pushing heroes aside",
+			"pushing heroes aside",
             "explain pushingcharacters aside",
+			"pushingcharacters aside",
             "explain pushing heroes away",
+			"pushing heroes away",
             "explain pushing characters away",
+			"pushing characters away",
             "explain pushing",
+			"pushing",
             "explain pushing away",
+			"pushing away",
             "explain pushing aside",
+			"pushing aside",
             "explain pushing to the side",
-            "explain shoving"
+			"pushing to the side",
+            "explain shoving",
+			"shoving"
           ]
         },
         {
@@ -1216,12 +1921,19 @@
           "slots": [],
           "samples": [
             "explain revive token",
+			"revive token",
             "explain revive tokens",
+			"revive tokens",
             "explain revive",
+			"revive",
             "explain revives",
+			"revives",
             "explain how to revive",
+			"how to revive",
             "explain how to use revive tokens",
-            "explain how to use a revive token"
+			"how to use revive tokens",
+            "explain how to use a revive token",
+			"how to use a revive token"
           ]
         },
         {
@@ -1229,23 +1941,41 @@
           "slots": [],
           "samples": [
             "explain recovery",
+			"recovery",
             "explain recover",
+			"recover",
             "explain ko recovery",
+			"ko recovery",
             "explain ko recover",
+			"ko recover",
             "explain how to recover",
+			"how to recover",
             "explain how to recover from ko",
+			"how to recover from ko",
             "explain knockout recovery",
+			"knockout recovery",
             "explain knockout recover",
+			"knockout recover",
             "explain how to recover",
+			"how to recover",
             "explain how to recover from knockout",
+			"how to recover from knockout",
             "explain how to recover from a knockout",
+			"how to recover from a knockout",
             "explain how to recover from having been knocked out",
+			"how to recover from having been knocked out",
             "explain hero recovery",
+			"hero recovery",
             "explain hero recover",
+			"hero recover",
             "explain player recovery",
+			"player recovery",
             "explain player recover",
+			"player recover",
             "explain adventurer recovery",
-            "explain adventurer recover"
+			"adventurer recovery",
+            "explain adventurer recover",
+			"adventurer recover"
           ]
         },
         {
@@ -1253,9 +1983,13 @@
           "slots": [],
           "samples": [
             "explain reroll",
+			"reroll",
             "explain rerolls",
+			"rerolls",
             "explain rerolling",
-            "explain how to reroll"
+			"rerolling",
+            "explain how to reroll",
+			"how to reroll"
           ]
         },
         {
@@ -1263,9 +1997,13 @@
           "slots": [],
           "samples": [
             "explain running of of cards",
+			"running of of cards",
             "explain having no more cards",
+			"having no more cards",
             "explain having no cards left",
-            "explain empty card stack"
+			"having no cards left",
+            "explain empty card stack",
+			"empty card stack"
           ]
         },
         {
@@ -1273,19 +2011,33 @@
           "slots": [],
           "samples": [
             "explain saloon girl",
+			"saloon girl",
             "explain saloon girl class",
+			"saloon girl class",
             "explain saloon girl character",
+			"saloon girl character",
             "explain saloon girl character class",
+			"saloon girl character class",
             "explain saloon girl hero class",
+			"saloon girl hero class",
             "explain saloon girl adventurer class",
+			"saloon girl adventurer class",
             "explain saloon girl role",
+			"saloon girl role",
             "explain piano player",
+			"piano player",
             "explain piano player class",
+			"piano player class",
             "explain piano player character",
+			"piano player character",
             "explain piano player character class",
+			"piano player character class",
             "explain piano player hero class",
+			"piano player hero class",
             "explain piano player adventurer class",
-            "explain piano player role"
+			"piano player adventurer class",
+            "explain piano player role",
+			"piano player role"
           ]
         },
         {
@@ -1293,9 +2045,13 @@
           "slots": [],
           "samples": [
             "explain sanity",
+			"sanity",
             "explain sanity attribute",
+			"sanity attribute",
             "explain sanity value",
-            "explain mental health"
+			"sanity value",
+            "explain mental health",
+			"mental health"
           ]
         },
         {
@@ -1303,16 +2059,27 @@
           "slots": [],
           "samples": [
             "explain scavenging",
+			"scavenging",
             "explain scavenge",
+			"scavenge",
             "explain how to scavenge",
+			"how to scavenge",
             "explain how to scavenge for loot",
+			"how to scavenge for loot",
             "explain how to scavenge a map tile",
+			"how to scavenge a map tile",
             "explain how to scavenge map tiles",
+			"how to scavenge map tiles",
             "explain how to scavenge rooms",
+			"how to scavenge rooms",
             "explain scavenging rooms",
+			"scavenging rooms",
             "explain scavenging map tiles",
+			"scavenging map tiles",
             "explain scavenging a map tile",
-            "explain scavenging for loot"
+			"scavenging a map tile",
+            "explain scavenging for loot",
+			"scavenging for loot"
           ]
         },
         {
@@ -1320,20 +2087,29 @@
           "slots": [],
           "samples": [
             "explain sermons",
+			"sermons",
             "explain sermon",
+			"sermon",
             "explain priest sermons",
+			"priest sermons",
             "explain preacher sermons",
+			"preacher sermons",
             "explain nun sermons",
+			"nun sermons",
             "explain priest spells",
+			"priest spells",
             "explain preacher spells",
-            "explain nun spells"
+			"preacher spells",
+            "explain nun spells",
+			"nun spells"
           ]
         },
         {
           "name": "ExplainShadowsOfBrimstoneIntent",
           "slots": [],
           "samples": [
-            "explain shadows of brimstone"
+            "explain shadows of brimstone",
+			"shadows of brimstone"
           ]
         },
         {
@@ -1341,13 +2117,21 @@
           "slots": [],
           "samples": [
             "explain shared xp",
+			"shared xp",
             "explain shared experience",
+			"shared experience",
             "explain shared xp variant",
+			"shared xp variant",
             "explain shared experience variant",
+			"shared experience variant",
             "explain shared xp optional rule",
+			"shared xp optional rule",
             "explain shared experience optional rule",
+			"shared experience optional rule",
             "explain shared xp mode",
-            "explain shared experience mode"
+			"shared xp mode",
+            "explain shared experience mode",
+			"shared experience mode"
           ]
         },
         {
@@ -1355,10 +2139,15 @@
           "slots": [],
           "samples": [
             "explain sidebag",
+			"sidebag",
             "explain side bag",
+			"side bag",
             "explain what a sidebag is",
+			"what a sidebag is",
             "explain what is a sidebag",
-            "explain how to use a sidebag"
+			"what is a sidebag",
+            "explain how to use a sidebag",
+			"how to use a sidebag"
           ]
         },
         {
@@ -1366,10 +2155,15 @@
           "slots": [],
           "samples": [
             "explain sidebag token",
+			"sidebag token",
             "explain side bag token",
+			"side bag token",
             "explain how to identify a sidebag token",
+			"how to identify a sidebag token",
             "explain how to identify a side bag token",
-            "explain what a sidebag token is"
+			"how to identify a side bag token",
+            "explain what a sidebag token is",
+			"what a sidebag token is"
           ]
         },
         {
@@ -1377,13 +2171,21 @@
           "slots": [],
           "samples": [
             "explain single handed weapon",
+			"single handed weapon",
             "explain single handed item",
+			"single handed item",
             "explain how to use a single handed weapon",
+			"how to use a single handed weapon",
             "explain how to use a single handed item",
+			"how to use a single handed item",
             "explain one handed weapon",
+			"one handed weapon",
             "explain one handed item",
+			"one handed item",
             "explain how to use a one handed weapon",
-            "explain how to use a one handed item"
+			"how to use a one handed weapon",
+            "explain how to use a one handed item",
+			"how to use a one handed item"
           ]
         },
         {
@@ -1391,21 +2193,37 @@
           "slots": [],
           "samples": [
             "explain skills",
+			"skills",
             "explain skill",
+			"skill",
             "explain what skills are",
+			"what skills are",
             "explain what a skill is",
+			"what a skill is",
             "explain player skills",
+			"player skills",
             "explain player skill",
+			"player skill",
             "explain what player skills are",
+			"what player skills are",
             "explain what a player skill is",
+			"what a player skill is",
             "explain hero skills",
+			"hero skills",
             "explain hero skill",
+			"hero skill",
             "explain what hero skills are",
+			"what hero skills are",
             "explain what a hero skill is",
+			"what a hero skill is",
             "explain character skills",
+			"character skills",
             "explain character skill",
+			"character skill",
             "explain what character skills are",
-            "explain what a character skill is"
+			"what character skills are",
+            "explain what a character skill is",
+			"what a character skill is"
           ]
         },
         {
@@ -1413,13 +2231,21 @@
           "slots": [],
           "samples": [
             "explain themed threat deck",
+			"themed threat deck",
             "explain themed threat decks",
+			"themed threat decks",
             "explain themed enemies",
+			"themed enemies",
             "explain themed monsters",
+			"themed monsters",
             "explain themed threat deck game variant",
+			"themed threat deck game variant",
             "explain themed threat decks game variant",
+			"themed threat decks game variant",
             "explain themed threat decks optional rule",
-            "explain themed threat deck optional rule"
+			"themed threat decks optional rule",
+            "explain themed threat deck optional rule",
+			"themed threat deck optional rule"
           ]
         },
         {
@@ -1427,9 +2253,13 @@
           "slots": [],
           "samples": [
             "explain threat",
+			"threat",
             "explain threats",
+			"threats",
             "explain threat cards",
-            "explain threat card"
+			"threat cards",
+            "explain threat card",
+			"threat card"
           ]
         },
         {
@@ -1437,11 +2267,17 @@
           "slots": [],
           "samples": [
             "explain turn order",
+			"turn order",
             "explain turn phases",
+			"turn phases",
             "explain turn steps",
+			"turn steps",
             "explain turn structure",
+			"turn structure",
             "explain turns",
-            "explain turn"
+			"turns",
+            "explain turn",
+			"turn"
           ]
         },
         {
@@ -1449,13 +2285,21 @@
           "slots": [],
           "samples": [
             "explain tonic",
+			"tonic",
             "explain tonics",
+			"tonics",
             "explain tonic tokens",
+			"tonic tokens",
             "explain tonic token",
+			"tonic token",
             "explain how to use tonic",
+			"how to use tonic",
             "explain how to use tonics",
+			"how to use tonics",
             "explain how to use tonic tokens",
-            "explain how to use a tonic token"
+			"how to use tonic tokens",
+            "explain how to use a tonic token",
+			"how to use a tonic token"
           ]
         },
         {
@@ -1463,12 +2307,19 @@
           "slots": [],
           "samples": [
             "explain tough",
+			"tough",
             "explain tough enemies",
+			"tough enemies",
             "explain tough abilities",
+			"tough abilities",
             "explain tough monsters",
+			"tough monsters",
             "explain tough monster",
+			"tough monster",
             "explain tough enemy",
-            "explain tough ability"
+			"tough enemy",
+            "explain tough ability",
+			"tough ability"
           ]
         },
         {
@@ -1476,10 +2327,15 @@
           "slots": [],
           "samples": [
             "explain town stay",
+			"town stay",
             "explain townstay",
+			"townstay",
             "explain staying in town",
+			"staying in town",
             "explain town event",
-            "explain townstay event"
+			"town event",
+            "explain townstay event",
+			"townstay event"
           ]
         },
         {
@@ -1487,12 +2343,19 @@
           "slots": [],
           "samples": [
             "explain trade",
+			"trade",
             "explain trading",
+			"trading",
             "explain trading items",
+			"trading items",
             "explain trading items between characters",
+			"trading items between characters",
             "explain trading items between heroes",
+			"trading items between heroes",
             "explain trading items between players",
-            "explain trading items between adventurers"
+			"trading items between players",
+            "explain trading items between adventurers",
+			"trading items between adventurers"
           ]
         },
         {
@@ -1500,14 +2363,23 @@
           "slots": [],
           "samples": [
             "explain travel",
+			"travel",
             "explain travelling",
+			"travelling",
             "explain travelling to town",
+			"travelling to town",
             "explain travelling to city",
+			"travelling to city",
             "explain travelling to village",
+			"travelling to village",
             "explain travelling to a town",
+			"travelling to a town",
             "explain travelling to a city",
+			"travelling to a city",
             "explain travelling to a village",
-            "explain town travel"
+			"travelling to a village",
+            "explain town travel",
+			"town travel"
           ]
         },
         {
@@ -1515,10 +2387,15 @@
           "slots": [],
           "samples": [
             "explain voices in the dark",
+			"voices in the dark",
             "explain voices in the dark effect",
+			"voices in the dark effect",
             "explain what voices in the dark do",
+			"what voices in the dark do",
             "explain out of lantern range",
-            "explain out of lantern light range"
+			"out of lantern range",
+            "explain out of lantern light range",
+			"out of lantern light range"
           ]
         },
         {
@@ -1526,13 +2403,21 @@
           "slots": [],
           "samples": [
             "explain upgrade",
+			"upgrade",
             "explain hero upgrade",
+			"hero upgrade",
             "explain item upgrade",
+			"item upgrade",
             "explain weapon upgrade",
+			"weapon upgrade",
             "explain upgrades",
+			"upgrades",
             "explain hero upgrades",
+			"hero upgrades",
             "explain item upgrades",
-            "explain weapon upgrades"
+			"item upgrades",
+            "explain weapon upgrades",
+			"weapon upgrades"
           ]
         },
         {
@@ -1540,15 +2425,25 @@
           "slots": [],
           "samples": [
             "explain weight",
+			"weight",
             "explain item weight",
+			"item weight",
             "explain carrying weight",
+			"carrying weight",
             "explain carrying capacity",
+			"carrying capacity",
             "explain maximum weight",
+			"maximum weight",
             "explain anvils",
+			"anvils",
             "explain anvil",
+			"anvil",
             "explain anvil icon",
+			"anvil icon",
             "explain anvil icons",
-            "explain weapon weight"
+			"anvil icons",
+            "explain weapon weight",
+			"weapon weight"
           ]
         },
         {
@@ -1556,12 +2451,19 @@
           "slots": [],
           "samples": [
             "explain whiskey",
+			"whiskey",
             "explain whiskey tokens",
+			"whiskey tokens",
             "explain whiskey token",
+			"whiskey token",
             "explain how to use whiskey",
+			"how to use whiskey",
             "explain how to drink whiskey",
+			"how to drink whiskey",
             "explain how to use whiskey tokens",
-            "explain how to use a whiskey token"
+			"how to use whiskey tokens",
+            "explain how to use a whiskey token",
+			"how to use a whiskey token"
           ]
         },
         {

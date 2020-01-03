@@ -594,22 +594,22 @@ async handle(handlerInput) {
         case "side bag":
         case "side back":
         case "sideback":
-              category = "sidebag";
-              break;
+          category = "sidebag";
+          break;
         case "game concerts":
         case "game contents":
         case "gain concerts":
         case "gain contents":
-              category = "game concepts";
-              break;
+          category = "game concepts";
+          break;
         case "mission":
         case "adventure":
         case "adventures":
-              category = "missions";
-              break;
+          category = "missions";
+          break;
         case "enemies":
-              category = "enemy";
-              break;
+          category = "enemy";
+          break;
       }
       if(CATSET.has(category)) {
         speechOutput = "I can explain to you the following " + category + " related subjects: " + fetchAnswersByCategory(category);
@@ -623,10 +623,9 @@ async handle(handlerInput) {
     }
 
     lastOutput = speechOutput;
-    speechOutput = "hupsa: " + question;
   }
 
-  var response =  handlerInput.responseBuilder.speak(speechOutput).reprompt("helloooo?").getResponse();
+  var response =  handlerInput.responseBuilder.speak(speechOutput).getResponse();
   response.ShouldEndSession = false;
   return response;
 },
@@ -642,7 +641,7 @@ const HelpHandler = {
 handle(handlerInput) {
   return handlerInput.responseBuilder
       .speak(HELP_MESSAGE)
-//      .reprompt(HELP_REPROMPT)
+      .withShouldEndSession(false)
       .getResponse();
 },
 };
