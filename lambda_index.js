@@ -4,6 +4,12 @@
 var lastOutput = "";
 const Alexa = require('ask-sdk');
 const ANSWERS = {
+
+  ExplainAdvancedAlliesIntent: {
+    answer: "Advanced allies are treated like heroes, except for the following differences: they have a fixed move, don't score critical hits, can't dual wield ranged weapons, can't use grit, do not draw loot cards, and can not explore. Allies are not considered heroes for events that require a random hero.  Every three advanced allies increase the hero posse size by one, which can have an impact on the threat level of the enemies you encounter, or the revive tokens you might receive. Also, your hero posse may never have more than eight models on the board.",
+    name:	"advanced allies",
+    tags: ["allies"]
+  },
   ExplainAmbushIntent: {
     answer: "An enemy group ambushing the heroes is placed adjacent to the heroes, and gains +2 initiative for the first round of combat.",
     name:	"ambushes",
@@ -19,10 +25,45 @@ const ANSWERS = {
     name:	"mission completion",
     tags: ["missions"]
   },
+  ExplainAllyCostsIntent: {
+    answer: "Basic allies have to be paid for each adventure you want them to join. Advanced allies are paid once their hiring cost and optionally a specialty fee, and from then on join your adventures for free. Note that the achigaru ally is an exception, as, like basic allies, it has to be paid for each adventure. If you play a one-off adventure, allies can be added to your posse for free, as a means to alter the games difficulty.",
+    name:	"ally costs",
+    tags: ["allies"]
+  },
+  ExplainAllyDeathIntent: {
+    answer: "Instead of getting knocked out, allies are killed, which can not be prevented by revive tokens. When killed, all their equipment and tokens are locked, and can not be retrieved until the ally is revived. You can revive an ally between adventures, by paying its cost plus 200$ for each upgrade it had.",
+    name:	"ally death",
+    tags: ["allies"]
+  },
+  ExplainAllyEquipment: {
+    answer: "Allies can use equipment and tokens as noted on their cards, which also states how much weight they can carry. However, allies can't dual wield ranged weapons. You can trade with allies the same way as with heroes.",
+    name:	"ally equipment",
+    tags: ["allies"]
+  },
+  ExplainAllyExperienceIntent: {
+    answer: "Advanced allies gain one xp for each adventure they complete. On their card is noted how much xp it requires for them to level up. Whenever they level up, they gain a random upgrade. If they already have that upgrade, reroll. An allies maximum level is six. Basic allies do not gain experience.",
+    name:	"ally experience",
+    tags: ["allies"]
+  },
+  ExplainAllyOverview: {
+    answer: "The allies expansion allows you to find allies during or to hire them between adventures (even if there is no travel or town visit). If a town daily event refers to allies, then it effects all allies that are part of your posse at the beginning of the next adventure. You can also order an ally to skip an adventure, and rejoin later. Ask me about basic allies, or advanced allies, to learn about them.",
+    name:	"ally overview",
+    tags: ["allies"]
+  },
+  ExplainAllySpecialtiesIntent: {
+    answer: "Whenever you hire an advanced ally, you can choose a matching ally specialty card and apply it permanently to that ally. To do so, you need to pay the additional fee mentioned on the specialty card. An ally can have only one specialty card at a time.",
+    name:	"ally specialties",
+    tags: ["allies"]
+  },
   ExplainAmmoIntent: {
     answer: "Heroes with ranged happens have unlimited regular ammo. Sometimes heroes can obtain special versions, such as dark stone ammo, which lasts for one mission only. You can only use one type of ammo at a time. However, you can switch between multiple types of ammo whenever you want.",
     name:	"ammo",
     tags: ["equipment"]
+  },
+  ExplainAnimalAlliesIntent: {
+    answer: "Advanced animal allies are treated like other advanced allies, except that they can not make skill tests, can not use items or tokens, and can neither drag nor recover knocked out heroes. Further, animal allies can not make skill tests, or use items or tokens",
+    name:	"animal allies",
+    tags: ["allies"]
   },
   ExplainArmorIntent: {
     answer: "Armor and spirit armor give additional protection. For each damage the target would suffer, roll a die. If the result is higher or equal to the armor value, that damage is prevented. Armor protects against regular damage, spirit armor against sanity damage.",
@@ -38,6 +79,11 @@ const ANSWERS = {
     answer: "The bandido, or bandida, is a hero class known for rolling lots of dice, recovering grit quickly, and making frequent use of dynamite.",
     name:	"bandido",
     tags: ["hero classes"]
+  },
+  ExplainBasicAlliesIntent: {
+    answer: "Basic allies function like items carried by the heroes, granting special abilities. They can not be targeted or killed, and if the hero they belong to is knocked out or dead, they may no longer be used. Basic allies have a limit noted next to their cost, that specifies how many of this type of basic ally your hero or hero posse can have. Unlike advanced allies, basic allies have to be paid for each adventure they join.",
+    name:	"basic allies",
+    tags: ["allies"]
   },
   ExplainBasicCombatIntent: {
     answer: "A models combat value, unmodified by items or effects. Combat bonuses gained from upgrades or enemy elite abilities do count towards basic combat.",
@@ -399,6 +445,11 @@ const ANSWERS = {
     name:	"judgements",
     tags: ["magic"]
   },
+  ExplainRancherIntent: {
+    answer: "Ranchers are a tough breed and tend to do well at a distance. Their ability to rapid fire with a rifle can make them a killing machine if you get on a roll, and having a leg up on escaping from enemies and out-ranging them can be a great advantage in a fight. If they do get up close though, a rancher has many options for frontier survival.",
+    name:	"rancher",
+    tags: ["hero classes"]
+  },
   ExplainRecoveryIntent: {
     answer: "A knocked out hero may recover at the end of any turn, in which no enemies are on the board. Alternatively, a hero can forfeit their action to help another hero recover, as long as they are adjacent and there are no enemies on that map tile. If a model stands on the space of the recovering hero, that model is pushed to the side. A hero must then roll on the madness and/or injury chart, depending on whether they were knocked out by wounds and/or sanity damage. If the hero has to roll on one chart, they recover two D6 health and/or sanity. If the hero has to roll on both charts, they recover two D6 health and sanity each. A hero can never activate in the turn they recover. A knocked out hero can be dragged around like a wet sack of sand, but that costs two movement points per space travelled.",
     name:	"recovering",
@@ -474,6 +525,11 @@ const ANSWERS = {
     name:	"threat cards",
     tags: ["game concepts"]
   },
+  ExplainTraitsIntent: {
+    answer: "The enemy trait supplement pack increases the games difficulty and diversity by giving enemies new abilities. Whenever you encounter an enemy type you have trait cards for, roll a d6. On a 4 or higher, draw a random matching trait card, and follow the cards instructions for enemy abilities and bonus xp. The use of traits is not recommended for a level 1 hero posse. If you want to give traits to enemies more or less often, simply adjust the roll to beat.",
+    name:	"enemy traits",
+    tags: ["enemies", "optional rules"]
+  },
   ExplainTonicIntent: {
     answer: "To use a tonic, discard the token and recover 1 grit",
     name:	"tonic",
@@ -506,7 +562,7 @@ const ANSWERS = {
   },
   ExplainUSMarshalIntent: {
     answer: "The US marshal class is with their powerful defense a strong frontline fighter. With their shotgun and doubleshot abilities, they can also deal a lot of damage, and using their badge allows them to boost their fellow heroes.",
-    name:	"us marshal",
+    name:	"u.s. marshal",
     tags: ["hero classes"]
   },
   ExplainVoicesIntheDarkIntent: {
@@ -574,7 +630,7 @@ const ExplainSkillHandler = {
   return (request.type === 'LaunchRequest' || request.type === 'IntentRequest');
 },
 async handle(handlerInput) {
-  var speechOutput = "";
+  var speechOutput = "I do not know the answer to this.";
 
   if(handlerInput.requestEnvelope.request.type === 'LaunchRequest') {
     speechOutput = "Welcome to the Shadows of Brimstone Assistant. Just ask me to explain something, or ask for help to receive a quick introduction.";
@@ -583,7 +639,6 @@ async handle(handlerInput) {
   else if(handlerInput.requestEnvelope.request.type === 'IntentRequest') {
     var question = handlerInput.requestEnvelope.request.intent.name;
 
-    speechOutput = "I do not know the answer to this.";
     if(question == "listCategories") {
       speechOutput = "I can tell you about the following categories: " + CATSTRING + ". Feel free to ask me to list one category. For example: list " + CATSET.values().next().value;
     }
@@ -596,6 +651,10 @@ async handle(handlerInput) {
         case "sideback":
           category = "sidebag";
           break;
+        case "ally":
+        case "alice":
+          category = "allies";
+          break;
         case "game concerts":
         case "game contents":
         case "gain concerts":
@@ -607,8 +666,9 @@ async handle(handlerInput) {
         case "adventures":
           category = "missions";
           break;
-        case "enemies":
-          category = "enemy";
+        case "enemy":
+        case "enema":
+          category = "enemies";
           break;
       }
       if(CATSET.has(category)) {
@@ -642,6 +702,23 @@ handle(handlerInput) {
   return handlerInput.responseBuilder
       .speak(HELP_MESSAGE)
       .withShouldEndSession(false)
+      .getResponse();
+},
+};
+
+
+
+const FALLBACK_MESSAGE = "Sorry, I don't know that.";
+
+const FallbackHandler = {
+  canHandle(handlerInput) {
+  const request = handlerInput.requestEnvelope.request;
+  return request.type === 'IntentRequest'
+      && request.intent.name === 'AMAZON.FallbackIntent';
+},
+handle(handlerInput) {
+  return handlerInput.responseBuilder
+      .speak(FALLBACK_MESSAGE)
       .getResponse();
 },
 };
@@ -721,9 +798,9 @@ const STOP_MESSAGE = 'Goodbye!';
 const CANCEL_MESSAGE = 'Sorry.';
 const skillBuilder = Alexa.SkillBuilders.standard();
 
-
 exports.handler = skillBuilder
     .addRequestHandlers(
+    FallbackHandler,
     HelpHandler,
     ExitHandler,
     RepeatHandler,
